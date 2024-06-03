@@ -10,5 +10,5 @@
 ! pentru orice întrebări mă puteți contacta !
 
 
-Vor apărea noi proiecte de testare pe profilul meu în curând.
+Vor apărea noi proiecte de testare pe profilul meu în curând. 
 
