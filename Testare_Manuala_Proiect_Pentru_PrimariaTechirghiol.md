@@ -6,3 +6,5 @@ Scopul proiectului final pentru „Cursul de testare manuală IT Factory” repr
 Website în curs de testare: https://www.primariatechirghiol.ro
 
 Instrumente utilizate: Jira și Zephyr Squad.
+
+ 
