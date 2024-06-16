@@ -12,3 +12,4 @@ Story-ul de mai jos a fost creat în Jira, și descrie specificațiile funcțion
 
 Se poate identifica versiunea care a fost creată pentru proiect:
 
+În consecință, ..
