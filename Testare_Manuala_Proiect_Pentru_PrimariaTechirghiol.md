@@ -7,4 +7,8 @@ Website în curs de testare: https://www.primariatechirghiol.ro
 
 Instrumente utilizate: Jira și Zephyr Squad.
 
- 
+<h1>Specificații funcționale:</h1>
+Story-ul de mai jos a fost creat în Jira, și descrie specificațiile funcționale ale modulului, pentru care se realizează proiectul final de acreditare.
+
+Se poate identifica versiunea care a fost creată pentru proiect:
+
