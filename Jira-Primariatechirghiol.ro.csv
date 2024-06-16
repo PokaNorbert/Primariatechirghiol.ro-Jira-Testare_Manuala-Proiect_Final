@@ -1,0 +1,86 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Affects versions,Fix versions,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Relates),Inward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Attachment,Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Affected hardware),Custom field (Affected services),Custom field (Approvals),Custom field (Asset type),Custom field (Asset type),Custom field (Backout plan),Custom field (Category),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Department),Custom field (Department),Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Epic Link Summary,Custom field (Epic Name),Custom field (Epic Status),Custom field (Impact),Custom field (Implementation plan),Custom field (Investigation reason),Custom field (Issue color),Custom field (Locked forms),Custom field (Major incident),Custom field (Open forms),Custom field (Pending reason),Custom field (Planned end),Custom field (Planned start),Custom field (Priority),Custom field (Project overview key),Custom field (Project overview status),Custom field (Rank),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Responders),Custom field (Root cause),Satisfaction rating,Custom field (Satisfaction date),Custom field (Severity),Custom field (Source),Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Test plan),Custom field (Time to close after resolution),Custom field (Time to first response),Custom field (Time to resolution),Custom field (Time to review normal change),Custom field (Total forms),Custom field (Urgency),Custom field (Vulnerability),Custom field (Work category),Custom field (Workaround),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Comment,Comment,Parent,Parent summary,Status Category,Status Category Changed
+Returnare cod de erore 404 în pagina site-ului web,NPT-29,18804,Bug,In Progress,NPT,Norbert Poka_TM2,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Low,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,16/Jun/24 7:38 PM,16/Jun/24 7:39 PM,16/Jun/24 7:39 PM,,Primariatechirghiol.ro_version_1.0,Primariatechirghiol.ro_version_1.0,,0,"va fi editat
+jquery.min.js:19 
+ POST https://www.primariatechirghiol.ro/wp-content/themes/portal/petitie_persoana_fizica.php 404 (Not Found)
+
+Precondiții: 
+utilizatorul final deține un calculator personal cu cel puțin Windows 10 Home instalat pe acesta împreună browser-ul Google Chrome
+utilizatorul final are acces la site-uri web
+utilizatorul final se află pe site-ul web: https://www.primariatechirghiol.ro
+
+Pașii de reproducere:
+
+
+Rezultat așteptate:
+
+
+Rezultat actual:
+",Testing,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,NPT-27,,NPT-28,,16/Jun/24 7:26 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;Screenshot (17602).png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/11446,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@5ffbe96,,,,,,,,,,,,NPT-20,Consola site-ului web,,,,,,,,,,,,,,,,0|i01awh:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18792,Consola site-ului web,In Progress,16/Jun/24 7:39 PM
+Accesare: https://www.primariatechirghiol.ro/wp-content/themes/portal/petitie_persoana_fizica.php,NPT-28,18801,Test,In Progress,NPT,Norbert Poka_TM2,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Low,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,16/Jun/24 7:07 PM,16/Jun/24 7:38 PM,16/Jun/24 7:23 PM,,,Primariatechirghiol.ro_version_1.0,,0,"se va edita
+
+Accesarea link-ului din consolă, afișat în sumar, se realizează prin apăsarea butonului stâng al mouse-ului/șoarecelui de pe biroul dumneavoastră, click-ul trebuind să fie poziționat pe link-ul albastru de pe fundalul roșu din imaginea de mai jos. 
+
+..",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,NPT-27,NPT-29,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@1d37ebf4,,,,,,,,,,,,NPT-20,Consola site-ului web,,,,,,,,,,,,,,,,0|i01avt:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18792,Consola site-ului web,In Progress,16/Jun/24 7:23 PM
+Accesare https://www.primariatechirghiol.ro/wp-content/themes/portal/petitie_persoana_fizica.php,NPT-27,18800,Story,In Progress,NPT,Norbert Poka_TM2,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Low,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,16/Jun/24 6:50 PM,16/Jun/24 7:38 PM,16/Jun/24 7:04 PM,,,Primariatechirghiol.ro_version_1.0,,0,"se va edita
+
+Accesarea link-ului din consolă, afișat în sumar, se realizează prin apăsarea butonului stâng al mouse-ului/șoarecelui de pe biroul dumneavoastră, click-ul trebuind să fie poziționat pe link-ul albastru de pe fundalul roșu din imaginea de mai jos. 
+
+Pe urmă, ar trebui să vi se afișeze pagina conform imaginii de mai jos. Codul de eroare ”Error 404 - Not Found” nu trebuie să lipsească. Semnifică faptul că ceea ce căutăm nu se poate găsi.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,NPT-20,,NPT-28,NPT-29,16/Jun/24 6:50 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;Screenshot (17601).png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/11443,16/Jun/24 6:50 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;Screenshot (17602).png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/11442,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@15ee2040,,,,,,,,,,,,NPT-20,Consola site-ului web,,,,,,,,,,,,,,,,0|i01avl:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"16/Jun/24 6:50 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;
+
+!Screenshot (17601).png|width=413,height=411,alt=""Screenshot (17601).png""!
+
+
+
+!Screenshot (17602).png|width=1319,height=1007,alt=""Screenshot (17602).png""!",,18792,Consola site-ului web,In Progress,16/Jun/24 6:50 PM
+Partea de jos a/bottom-ului site-ului web,NPT-26,18799,Epic,In Progress,NPT,Norbert Poka_TM2,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Highest,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,16/Jun/24 5:46 PM,16/Jun/24 6:05 PM,16/Jun/24 6:27 PM,,,Primariatechirghiol.ro_version_1.0,,0,"Partea de jos a/bottom-ul site-ului web este compusă din: 
+
+* © 2023* [Primaria Techirghiol|https://www.primariatechirghiol.ro/];
+* Iconiță verde standard de știri;
+* [Stiri|https://www.primariatechirghiol.ro/feed/];
+* Designed by [INDRA SISTEMAS S.A.|https://www.primariatechirghiol.ro/#];
+* Powered by [INDRA SISTEMAS S.A.|https://www.primariatechirghiol.ro/#]
+
+*anul poate diferi în funcție de partea paginii care este accesată
+
+Este extrem de important ca utilizatorul final să poată interacționa în mod corect cu bottom-ul.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,,,,,16/Jun/24 6:05 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;Screenshot (17731).png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/11432,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@1043944a,,,,,,,,,,,ghx-label-10,,,,To Do,,,,blue,,,,,,,,,,0|i01avd:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"16/Jun/24 6:05 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;
+
+!Screenshot (17731).png|width=1517,height=56,alt=""Screenshot (17731).png""!",,,,In Progress,16/Jun/24 5:46 PM
+Secțiunea de link-uri utile/sidebar,NPT-25,18798,Epic,In Progress,NPT,Norbert Poka_TM2,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,16/Jun/24 5:33 PM,16/Jun/24 5:57 PM,16/Jun/24 6:26 PM,,,Primariatechirghiol.ro_version_1.0,,0,"Se va realiza testarea butoanelor:
+
+* AM PODCA;
+* Președintele României;
+* Guvernul României;
+* Senatul României;
+* Camera Deputaților;
+* Uniunea Europeană;
+* Infoeuropa;
+* Ministerul Dezvoltării Regionale și Turismului.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,,,,,16/Jun/24 5:57 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;Screenshot (17597).png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/11429,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@8e20652,,,,,,,,,,,ghx-label-9,,,,To Do,,,,orange,,,,,,,,,,0|i01av5:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"16/Jun/24 5:57 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;
+
+!Screenshot (17597).png|width=122,height=233,alt=""Screenshot (17597).png""!",,,,In Progress,16/Jun/24 5:33 PM
+Videoclipul integrat în site-ul web de sub cb_menu,NPT-24,18796,Epic,In Progress,NPT,Norbert Poka_TM2,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,16/Jun/24 5:18 PM,16/Jun/24 5:55 PM,16/Jun/24 6:26 PM,,,Primariatechirghiol.ro_version_1.0,,0,Videoclipul trebuie să poată fi rulat direct din site-ul web. Are destulă importanță ca utilizatorul final să poată viziona videoclipul fără inconveniente,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,,,,,16/Jun/24 5:22 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;Screenshot (17692).png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/11419,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@d10001,,,,,,,,,,,ghx-label-13,,,,To Do,,,,dark_green,,,,,,,,,,0|i01aup:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"16/Jun/24 5:22 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;[https://youtu.be/6LEQoSuVXZ4|https://youtu.be/6LEQoSuVXZ4|smart-link] 
+
+!Screenshot (17692).png|width=1148,height=549,alt=""Screenshot (17692).png""!",,,,In Progress,16/Jun/24 5:18 PM
+Butoanele din prima secțiune/cb_menu de sub imagine/header,NPT-23,18795,Epic,In Progress,NPT,Norbert Poka_TM2,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Highest,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,16/Jun/24 5:09 PM,16/Jun/24 5:55 PM,16/Jun/24 6:26 PM,,,Primariatechirghiol.ro_version_1.0,,0,"Prima secțiune/cb_menu este compusă din: 
+
+* Home;
+* Proiecte;
+* Formulare;
+* Achizitii,
+* Taxe și impozite locale;
+* Contact;
+* Urbanism; 
+* MOL 2019-2021;
+* Hotărâri ale Comitetului Local pentru Situatii de Urgenta; 
+* PLĂȚI ONLINE.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,,,,,16/Jun/24 5:55 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;Screenshot (17729).png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/11428,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@66dc7e9c,,,,,,,,,,,ghx-label-14,,,,To Do,,,,dark_orange,,,,,,,,,,0|i01auh:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"16/Jun/24 5:55 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;
+
+!Screenshot (17729).png|width=722,height=47,alt=""Screenshot (17729).png""!",,,,In Progress,16/Jun/24 5:09 PM
+Header/cb_logo,NPT-22,18794,Epic,In Progress,NPT,Norbert Poka_TM2,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,High,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,16/Jun/24 5:00 PM,16/Jun/24 5:53 PM,16/Jun/24 6:26 PM,,,Primariatechirghiol.ro_version_1.0,,0,"Prima imagine din site-ul web reprezintă cb_logo-ul și header-ul paginii, fiind amplasat în cea mai de sus parte a imaginii. Aceasta este foarte importantă pentru interfața cu care utilizatorul final interacționează.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,,,,,16/Jun/24 5:53 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;Screenshot (17728).png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/11427,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@5a685a2e,,,,,,,,,,,ghx-label-11,,,,To Do,,,,teal,,,,,,,,,,0|i01au9:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"16/Jun/24 5:53 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;
+
+!Screenshot (17728).png|width=1464,height=154,alt=""Screenshot (17728).png""!",,,,In Progress,16/Jun/24 5:00 PM
+Consola site-ului web,NPT-20,18792,Epic,In Progress,NPT,Norbert Poka_TM2,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Low,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,16/Jun/24 4:44 PM,16/Jun/24 7:38 PM,16/Jun/24 7:06 PM,,,Primariatechirghiol.ro_version_1.0,,0,"Accesând consola site-ului web putem regăsi erori sau defecte. 
+
+Aceasta se poate accesa fie apasând pe tasta ”F12”, rămânând strict pe site-ul web, fie apasând click dreapta și selectând ”Inspect”.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,,,NPT-27,,16/Jun/24 4:46 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;Screenshot (17601).png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/11417,16/Jun/24 6:25 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;Screenshot (17734).png;https://itfclasses.atlassian.net/rest/api/3/attachment/content/11437,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@2cd48de4,,,,,,,,,,,ghx-label-8,,,,To Do,,,,dark_purple,,,,,,,,,,0|i01au1:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"16/Jun/24 4:46 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;
+
+!Screenshot (17601).png|width=413,height=411,alt=""Screenshot (17601).png""!","16/Jun/24 6:25 PM;712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67;
+
+!Screenshot (17734).png|width=969,height=961,alt=""Screenshot (17734).png""!",,,In Progress,16/Jun/24 4:44 PM
