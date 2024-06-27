@@ -1,4 +1,4 @@
-<h1>Proiect de testare a site-ului web al Primăriei Techirghiol</h1>
+<h1>Proiect de testare al site-ului web al Primăriei Techirghiol</h1>
 
 Scopul proiectului final pentru „Cursul de testare manuală IT Factory” reprezintă utilizarea tuturor cunoștințelor asimilate de-a lungul sesiunilor de curs, și de a le putea aplica în mod practic.
 
