@@ -1,9 +1,7 @@
 În acest ”repository” limba română va fi dominantă.
  
-</h1>Proiect de testare a website-ului Primăriei Techirghiol</h1>
+<h1>Test project of the Techirghiol City Hall website</h1>
 
-Scopul proiectului final pentru „Cursul de testare manuală IT Factory” reprezintă utilizarea tuturor cunoștințelor asimilate de-a lungul sesiunilor de curs, și de a le putea aplica în mod practic.
+The goal of the final project for the "IT Factory Manual Testing Course" is to use all the knowledge acquired during the course sessions, and to be able to apply it in a practical way.
 
-Părți testate din website-ul: https://www.primariatechirghiol.ro
-
-Instrumente utilizate: Jira și Zephyr Squad.
+Website under testing: https://www.primariatechirghiol.ro
