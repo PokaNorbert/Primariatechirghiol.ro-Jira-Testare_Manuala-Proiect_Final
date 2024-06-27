@@ -4,8 +4,6 @@ Scopul proiectului final pentru „Cursul de testare manuală IT Factory” repr
 
 Părți testate din site-ul web: https://www.primariatechirghiol.ro
 
-În acest ”repository” limba română este dominantă.
-
 Instrumente utilizate: Jira și Zephyr Squad.
 
 Mai multe detalii pot fi desprinse din:
