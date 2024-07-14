@@ -9,4 +9,4 @@ Instrumente utilizate: Jira și Zephyr Squad.
 Mai multe detalii pot fi desprinse din:
 
 Plan de testare - Primăria Techirghiol.pdf - https://shorturl.at/6uTF0  
- 
+  
