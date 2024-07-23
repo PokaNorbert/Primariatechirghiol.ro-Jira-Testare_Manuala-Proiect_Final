@@ -131,6 +131,13 @@ Raportul final arată că un număr de .. teste au eșuat dintr-un total de ..
 
 Au fost găsite un număr de .. defecte/bug-uri totale, dintre care .. sunt cu prioritate ridicată, iar .. sunt cu prioritate medie.
 
-**
-CONCLUZIA
-**
+<h1>Consecințe ale testării</h1>
+
+Consecințele despre testarea efectuată reprezintă următoarele:
+<ul>
+  <li>Numărul total de test condition-uri create este: **, toate fiind executate;</li>
+  <li>Procentul de acoperire al testelor din domeniul de aplicare este: **;</li>
+  <li>Aceste funcționalități nu au mai fost supuse testării: **;</li>
+  <li>Pentru proiectele viitoare este nevoie de un nivel și mai ridicat al atenției umane, și de creșterea vitezei de lucru;
+  <li>Majoritatea defectelor au un nivel ridicat de severitate. Toate defectele afectează interacțiunea pe care utilizatorul final o are cu site-ul web al primăriei. Așadar, utilizatorul final poate, potențial, pierde timp prețios stând pe site-ul web.</li>
+</ul>
