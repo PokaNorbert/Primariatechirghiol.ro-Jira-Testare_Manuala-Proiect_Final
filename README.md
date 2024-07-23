@@ -12,7 +12,7 @@ Story-ul de mai jos a fost creat în Jira și descrie specificațiile funcționa
 
 Aici puteți găsi versiunea care a fost creată pentru acest proiect:
 
-<h2>Proces de testare</h2>
+<h2>Procesul testării</h2>
 
 Procesul de testare a fost operat pe baza procesului de testare standard, așa cum este descris mai jos.
 
