@@ -20,9 +20,12 @@ Aici puteți găsi versiunea care a fost creată pentru acest proiect:
 
 Procesul de testare a fost operat pe baza procesului de testare standard, așa cum este descris mai jos.
 
-<h3>1.1 Planificarea testăriir</h3>
+<h3>1.1 Planificarea testării</h3>
 
 Planul de testare este conceput pentru a descrie toate amănuntele testării pentru toate modulele din site-ul web al primăriei Techirghiol.
+
+Planul identifică elementele de testat, caracteristicile de testat, tipurile de testare care trebuie efectuate, personalul responsabil de testare, resursele și programul necesar pentru finalizarea testării și riscurile asociate cu planul. Planul de testare care a fost creat pentru acest proiect poate fi găsit aici:
+**
 
 <h4>1.1.1. Persoane alocate și roluri atribuite proiectului</h4>
 
@@ -36,7 +39,29 @@ Planul de testare este conceput pentru a descrie toate amănuntele testării pen
   <li>Oprișan Mugurel	- QA 3</li> 
 </ul>
 
-Planul identifică elementele de testat, caracteristicile de testat, tipurile de testare care trebuie efectuate, personalul responsabil de testare, resursele și programul necesar pentru finalizarea testării și riscurile asociate cu planul. Planul de testare care a fost creat pentru acest proiect poate fi găsit aici
+<h4>1.1.2 Criteriile de intrare definite</h4>
+**
 
+<h4>1.1.3 Criterii de ieșire definite</h4>
+**
 
+<h4>1.1.4 Domeniul de testare</h4>
+
+<h5>Teste în domeniul de aplicare:</h5>
+**
+
+<h5>Teste în afara domeniului de aplicare:</h5>
+**
+
+<h4>1.1.5 Riscuri detectate</h4>
+
+<h5>Riscuri de proiect:</h5>
+**
+
+<h5>Riscuri de produs:</h5>
+**
+
+<h4>1.1.6 Evaluarea criteriilor de intrare</h4>
+
+Criteriile de intrare definite în faza "Planificării testării" au fost atinse, procesul de testare putând continua.
   
