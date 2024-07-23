@@ -105,7 +105,7 @@ Cazurile de testare funcționale au fost create în Zephyr Squad pe baza analize
 
 Următoarele elemente sunt necesare pentru a fi pregătite înainte de începerea fazei de execuție a testării:
 
-<h3>1.6. Execuția testului</h3>
+<h3>1.6. Execuția testării</h3>
 
 Cazurile de testare sunt executate pe Rezumatul ciclului de testare/Cycle summary-ul creat:
 **
@@ -116,3 +116,18 @@ Au fost create defecte/bug-uri pe baza testelor eșuate. Rapoartele complete ale
 Următorul este un rezumat al defectelor/bug-urilor care au fost găsite:
 **
 
+1.7 Încheierea testării
+Deoarece criteriile de ieșire au fost îndeplinite, Echipa de testare sugerează această caracteristică pentru "Go Live".
+
+Matricea de trasabilitate a fost generată, și poate fi găsită aici:
+**
+
+Diagrama de execuție a testului a fost generată, și poate fi găsită mai jos:
+**
+
+Raportul final arată că un număr de .. teste au eșuat dintr-un total de ..
+**
+
+Au fost găsite un număr de .. defecte/bug-uri totale, dintre care .. sunt cu prioritate ridicată, iar .. sunt cu prioritate medie.
+
+CONCLUZIA**
