@@ -86,7 +86,7 @@ Riscul asociat cu produsul final este cel imediat menționat:
 
 Criteriile de intrare definite în faza "Planificării testării" au fost atinse, procesul de testare putând continua.
   
-<h3>1.2 Monitorizarea și controlul testării<h3>
+<h3>1.2 Monitorizarea și controlul testării</h3>
 Procesul de testare a fost monitorizat continuu, de la început până la sfârșit. A fost generat Test status report pentru compararea eficientă a progresului de moment cu cel așteptat. Dacă devierile de plan au pus stăpânire peste întreaga desfășurare, atunci au fost luate măsuri de control. La fel s-a întâmplat și în cazul în care apărea riscul de a nu fi îndeplinite obiectivele la timp. Rolul acestei etape este de a crește calitatea și eficiența. 
 **
   
