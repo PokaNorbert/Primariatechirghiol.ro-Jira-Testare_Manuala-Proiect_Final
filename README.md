@@ -86,3 +86,33 @@ Riscul asociat cu produsul final este cel imediat menționat:
 
 Criteriile de intrare definite în faza "Planificării testării" au fost atinse, procesul de testare putând continua.
   
+<h3>1.2 Monitorizarea și controlul testării<h3>
+**
+  
+<h3>1.3 Analiza testării</h3>
+Procesul de testare va fi executat pe baza cerințelor aplicației. <b>(Analiza cerinţelor a fost făcută pentru a implementa principiul testului <i>early testing</i>, iar rezultatele pot fi găsite aici - inserati linkul către documentul de review. aveti cerinte si daca ati facut review)</b>. <br><br>
+*****
+
+Au fost clădite următoarele test condition-uri: <br>
+**
+
+<h3>1.4 Proiectarea/Design-ul testării</h3>
+
+Cazurile de testare funcționale au fost create în Zephyr Squad pe baza analizei specificațiilor. Cazurile de testare pot fi accesate aici:
+**
+
+<h3>1.5 Implementarea testării</h3>
+
+Următoarele elemente sunt necesare pentru a fi pregătite înainte de începerea fazei de execuție a testării:
+
+<h3>1.6. Execuția testului</h3>
+
+Cazurile de testare sunt executate pe Rezumatul ciclului de testare/Cycle summary-ul creat:
+**
+
+Au fost create defecte/bug-uri pe baza testelor eșuate. Rapoartele complete ale erorilor pot fi găsite aici:
+**
+
+Următorul este un rezumat al defectelor/bug-urilor care au fost găsite:
+**
+
