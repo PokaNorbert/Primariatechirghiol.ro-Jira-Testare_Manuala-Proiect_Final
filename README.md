@@ -116,7 +116,7 @@ Au fost create defecte/bug-uri pe baza testelor eșuate. Rapoartele complete ale
 Următorul este un rezumat al defectelor/bug-urilor care au fost găsite:
 **
 
-1.7 Încheierea testării
+<h3>1.7 Încheierea testării</h3>
 Deoarece criteriile de ieșire au fost îndeplinite, Echipa de testare sugerează această caracteristică pentru "Go Live".
 
 Matricea de trasabilitate a fost generată, și poate fi găsită aici:
@@ -130,4 +130,6 @@ Raportul final arată că un număr de .. teste au eșuat dintr-un total de ..
 
 Au fost găsite un număr de .. defecte/bug-uri totale, dintre care .. sunt cu prioritate ridicată, iar .. sunt cu prioritate medie.
 
-CONCLUZIA**
+**
+CONCLUZIA
+**
