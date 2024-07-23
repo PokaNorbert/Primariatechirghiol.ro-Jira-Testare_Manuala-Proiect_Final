@@ -30,10 +30,10 @@ Planul identifică elementele de testat, caracteristicile de testat, tipurile de
 <h4>1.1.1. Persoane alocate și roluri atribuite proiectului</h4>
 
 <ul>
-  <li>Csipas Valeriu - Project manager</li> 
-  <li>Moga Constantin - Product owner</li> 
-  <li>Buga Ovidiu - Software developer</li> 
-  <li>POKA NORBERT -	Team Lead/Liderul Testării</li>  
+  <li>Csipas Valeriu - Project manager/Managerul proiectului</li> 
+  <li>Moga Constantin - Product owner/Proprietarul produsului</li> 
+  <li>Buga Ovidiu - Software developer/Dezvoltatorul software-ului</li> 
+  <li>POKA NORBERT - Team Lead/Liderul Testării</li>  
   <li>Sabou Iulia - QA (Quality Assurance/Asiguratorul calității) 1</li> 
   <li>Talpoș Armand - QA 2</li> 
   <li>Oprișan Mugurel	- QA 3</li> 
