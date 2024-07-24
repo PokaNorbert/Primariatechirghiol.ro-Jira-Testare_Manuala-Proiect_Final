@@ -8,9 +8,9 @@ Instrumente utilizate: Jira și Zephyr Squad.
 
 <h2>Specificații funcționale:</h2>
 
-Story-ul de mai jos a fost creat în Jira și descrie specificațiile funcționale ale .., pentru care se realizează proiectul final.
+Story-ul de mai jos a fost creat în Jira și descrie specificațiile funcționale ale **, pentru care se realizează proiectul final.
 
-Aici puteți găsi versiunea care a fost creată pentru acest proiect:
+Aici puteți găsi versiunea care a fost creată pentru acest proiect:**
 
 <h2>Procesul testării</h2>
 
