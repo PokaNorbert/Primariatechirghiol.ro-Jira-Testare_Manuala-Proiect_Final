@@ -88,9 +88,9 @@ Riscul asociat cu produsul final este cel imediat menționat:
 Criteriile de intrare definite în faza "Planificării testării" au fost atinse, procesul de testare putând continua.
   
 <h3>1.2 Monitorizarea și controlul testării</h3>
-Procesul de testare a fost monitorizat continuu, de la început până la sfârșit. A fost generat Raportul de status/Test status report pentru compararea eficientă a progresului de moment cu cel așteptat. Dacă devierile de plan au pus stăpânire peste întreaga desfășurare, atunci au fost luate măsuri de control. La fel s-a întâmplat și în cazul în care apărea riscul de a nu fi îndeplinite obiectivele la timp. Rolul acestei etape este de a crește calitatea și eficiența. 
-![Screenshot (18843)](https://github.com/user-attachments/assets/78ab21de-bcba-44ef-832c-93810cab8d55)
-![Screenshot (18844)](https://github.com/user-attachments/assets/b3ac4ccf-30d5-49cd-ab95-f50cf031f5a8)
+Procesul de testare a fost monitorizat continuu, de la început până la sfârșit. A fost generat Raportul de status/Test status report pentru compararea eficientă a progresului de moment cu cel așteptat. Dacă devierile de plan au pus stăpânire peste întreaga desfășurare, atunci au fost luate măsuri de control. La fel s-a întâmplat și în cazul în care apărea riscul de a nu fi îndeplinite obiectivele la timp. Rolul acestei etape este de a crește calitatea și eficiența. ![Screenshot (18843)](https://github.com/user-attachments/assets/34d8cc73-d18a-44ec-bbd0-cb02334a61b3)![Screenshot (18844)](https://github.com/user-attachments/assets/1bb29257-c093-4049-8694-13916b9c6b9a)
+
+
 
   
 <h3>1.3 Analiza testării</h3>
