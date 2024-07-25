@@ -11,9 +11,7 @@ Instrumente utilizate: Jira și Zephyr Squad.
 Story-urile de mai jos au fost create în Jira și descriu unele specificații funcționale ale site-ului web al Primăriei Techirghiol, pentru care se realizează proiectul final:![Screenshot (18836)](https://github.com/user-attachments/assets/dd41c737-50f0-497d-a5ea-cfc3494f6a20)
 
 Aici puteți găsi versiunea care a fost creată pentru acest proiect:
-![Screenshot (18838)](https://github.com/user-attachments/assets/4f7e6be1-2dc9-4184-baab-c4ade6fe54cb)
-![Screenshot (18839)](https://github.com/user-attachments/assets/476bc442-3aa5-4207-9ca5-7e10d9f25b95)
-![Screenshot (18840)](https://github.com/user-attachments/assets/d1c0de20-37a0-43a2-952c-2ad020373642)
+![Screenshot (18841)](https://github.com/user-attachments/assets/cf0efd5d-01a2-44cb-b9f2-51ed45697818)
 
 <h2>Procesul testării</h2>
 
@@ -91,7 +89,9 @@ Criteriile de intrare definite în faza "Planificării testării" au fost atinse
   
 <h3>1.2 Monitorizarea și controlul testării</h3>
 Procesul de testare a fost monitorizat continuu, de la început până la sfârșit. A fost generat Raportul de status/Test status report pentru compararea eficientă a progresului de moment cu cel așteptat. Dacă devierile de plan au pus stăpânire peste întreaga desfășurare, atunci au fost luate măsuri de control. La fel s-a întâmplat și în cazul în care apărea riscul de a nu fi îndeplinite obiectivele la timp. Rolul acestei etape este de a crește calitatea și eficiența. 
-**
+![Screenshot (18843)](https://github.com/user-attachments/assets/78ab21de-bcba-44ef-832c-93810cab8d55)
+![Screenshot (18844)](https://github.com/user-attachments/assets/b3ac4ccf-30d5-49cd-ab95-f50cf031f5a8)
+
   
 <h3>1.3 Analiza testării</h3>
 Procesul de testare a fost executat pe baza cerințelor aplicației. <b>(Analiza cerinţelor a fost făcută pentru a implementa principiul testului <i>early testing</i>, iar rezultatele pot fi găsite aici - inserati linkul către documentul de review. aveti cerinte si daca ati facut review)</b>. <br><br>
