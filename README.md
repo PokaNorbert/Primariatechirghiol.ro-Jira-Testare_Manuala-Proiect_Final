@@ -64,10 +64,18 @@ Iar criteriile de ieșire din testare sunt acestea:
 <h4>1.1.4 Domeniul de testare</h4>
 
 <h5>Teste în domeniul de aplicare:</h5>
-**
+<ul>
+  <li>Testarea cerințelor funcționale, de performanță, de cazuri de utilizare;</li> 
+  <li>Cerințe de calitate și metrici de potrivire primariatechirghiol.ro;</li> 
+</ul>
 
 <h5>Teste în afara domeniului de aplicare:</h5>
-**
+<ul>
+  <li>Testarea cerințelor funcționale pentru sisteme din afara primariatechirghiol.ro;</li>
+  <li>Testarea de securitate;</li>
+  <li>Testarea planului de recuperare în caz de dezastru și de continuitate a afacerii;</li>
+  <li>Testarea automată.</li>
+</ul>
 
 <h4>1.1.5 Riscuri detectate</h4>
 
