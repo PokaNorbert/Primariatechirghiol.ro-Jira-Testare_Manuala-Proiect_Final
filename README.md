@@ -8,7 +8,8 @@ Instrumente utilizate: Jira și Zephyr Squad.
 
 <h2>Specificații funcționale:</h2>
 
-Story-urile de mai jos au fost create în Jira și descriu unele specificații funcționale ale site-ului web al Primăriei Techirghiol, pentru care se realizează proiectul final:![Screenshot (18836)](https://github.com/user-attachments/assets/dd41c737-50f0-497d-a5ea-cfc3494f6a20)
+Story-urile de mai jos au fost create în Jira și descriu unele specificații funcționale ale site-ului web al Primăriei Techirghiol, pentru care se realizează proiectul final:
+![Screenshot (18836)](https://github.com/user-attachments/assets/dd41c737-50f0-497d-a5ea-cfc3494f6a20)
 
 Aici puteți găsi versiunea care a fost creată pentru acest proiect:
 ![Screenshot (18841)](https://github.com/user-attachments/assets/cf0efd5d-01a2-44cb-b9f2-51ed45697818)
