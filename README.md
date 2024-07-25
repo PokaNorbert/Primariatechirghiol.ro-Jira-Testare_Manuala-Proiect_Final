@@ -103,11 +103,11 @@ Procesul de testare a fost monitorizat continuu, de la început până la sfâr�
 ![Screenshot (18844)](https://github.com/user-attachments/assets/d2fa457e-f48f-4764-ae40-730123de3f12)
  
 <h3>1.3 Analiza testării</h3>
-Procesul de testare a fost executat pe baza cerințelor aplicației. <b>(Analiza cerinţelor a fost făcută pentru a implementa principiul testului <i>early testing</i>, iar rezultatele pot fi găsite aici - inserati linkul către documentul de review. aveti cerinte si daca ati facut review)</b>. <br><br>
-*****
 
-Au fost clădite următoarele test condition-uri: <br>
-**
+Procesul de testare a fost executat pe baza cerințelor aplicației.
+Au fost clădite următoarele test condition-uri: 
+![Screenshot (18809)](https://github.com/user-attachments/assets/45c0c12c-cc4f-4f62-adf6-aed3f952aa1c)
+
 
 <h3>1.4 Proiectarea/Design-ul testării</h3>
 
