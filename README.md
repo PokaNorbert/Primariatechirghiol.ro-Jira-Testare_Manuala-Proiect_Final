@@ -112,44 +112,50 @@ Au fost clădite următoarele test condition-uri:
 <h3>1.4 Proiectarea/Design-ul testării</h3>
 
 Cazurile de testare funcționale au fost create în Zephyr Squad pe baza analizei specificațiilor. Cazurile de testare pot fi accesate aici:
-**
+[Document-TestCases](https://github.com/PokaNorbert/Primariatechirghiol.ro-Jira-Testare_Manuala-Proiect_Final/blob/main/TestCases/Document-TestCases.doc)
 
 <h3>1.5 Implementarea testării</h3>
 
 Următoarele elemente sunt necesare pentru a fi pregătite înainte de începerea fazei de execuție a testării:
+<ul>
+  <li>Mediul de testare este pregătit din toate punctele de vedere;
+  <li>Datele de testare sunt disponibile și exacte;
+  <li>Sunt grupate cele mai importante cazuri de testare;
+  <li>Sunt permisiuni disponibile;
+  <li>Smoke test-ul a fost trecut.
+</ul>
 
 <h3>1.6. Execuția testării</h3>
 
-Cazurile de testare sunt executate pe Rezumatul ciclului de testare/Cycle summary-ul creat:
-**
+Cazurile de testare sunt executate pe Rezumatul ciclului de testare/Cycle summary-ul creat: ”Primariatechirghiol_versiunea_1.0_limba_română”.
 
 Au fost create defecte/bug-uri pe baza testelor eșuate. Rapoartele complete ale erorilor pot fi găsite aici:
-**
+[Document-Bugs](https://github.com/PokaNorbert/Primariatechirghiol.ro-Jira-Testare_Manuala-Proiect_Final/blob/main/Bugs/Document-Bugs.doc)
 
 Următorul este un rezumat al defectelor/bug-urilor care au fost găsite:
-**
+********
+Este necesară testare completă de regresie pe zonele afectate după ce erorile sunt remediate, iar după va trebui retestată fiecare funcționalitate care a eșuat anterior.
 
 <h3>1.7 Încheierea testării</h3>
 Deoarece criteriile de ieșire au fost îndeplinite, Echipa de testare sugerează această caracteristică pentru "Go Live".
 
 Matricea de trasabilitate a fost generată, și poate fi găsită aici:
-**
+![Screenshot (18828)](https://github.com/user-attachments/assets/37b1a9ed-a0ee-472e-8967-cf6700e3d68d)
 
 Diagrama de execuție a testului a fost generată, și poate fi găsită mai jos:
-**
+![Screenshot (18812)](https://github.com/user-attachments/assets/c35f9cf2-f3a3-4e8b-b6ca-290a98fe09ca)
+![Screenshot (18588) - Copy](https://github.com/user-attachments/assets/297522a8-a0b1-44c8-8103-6c2b1e24434b)
 
-Raportul final arată că un număr de .. teste au eșuat dintr-un total de ..
-**
+Raportul final arată că un număr de 10 teste au eșuat dintr-un total de 11.
 
-Au fost găsite un număr de .. defecte/bug-uri totale, dintre care .. sunt cu prioritate ridicată, iar .. sunt cu prioritate medie.
+Au fost găsite un număr de 15 defecte/bug-uri totale, dintre care niciunul nu este cu prioritate ridicată, iar 6 sunt cu prioritate medie.
 
 <h1>Consecințe ale testării</h1>
 
 Consecințele despre testarea efectuată reprezintă următoarele:
 <ul>
-  <li>Numărul total de test condition-uri create este: **, toate fiind executate;</li>
-  <li>Procentul de acoperire al testelor din domeniul de aplicare este: **;</li>
-  <li>Aceste funcționalități nu au mai fost supuse testării: **;</li>
+  <li>Numărul total de teste create este: 11, toate fiind executate;</li>
+  <li>Procentul de acoperire al testelor din domeniul de aplicare este: 100%;</li>
   <li>Pentru proiectele viitoare este nevoie de un nivel și mai ridicat al atenției umane, și de creșterea vitezei de lucru;
   <li>Majoritatea defectelor au un nivel ridicat de severitate. Toate defectele afectează interacțiunea pe care utilizatorul final o are cu site-ul web al primăriei. Așadar, utilizatorul final poate, potențial, pierde timp prețios stând pe site-ul web.</li>
 </ul>
