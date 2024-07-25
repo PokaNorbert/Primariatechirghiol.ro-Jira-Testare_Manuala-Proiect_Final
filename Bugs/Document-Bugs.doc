@@ -1,0 +1,4325 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://itfclasses.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/NPT-30">RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/NPT-30">NPT-30</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [NPT-120]&nbsp;<a href="https://itfclasses.atlassian.net/browse/NPT-120">(Samsung Galaxy S20 Ultra) Documentul: ”Raport privind Strategia Nationala Anticoruptie pe anul 2019” nu are așezate corespunzător imaginile</a>
+            <span class="subText">
+               Created: 25/Jul/24                   &nbsp;Updated: 25/Jul/24
+
+                                                    &nbsp;Resolved: 25/Jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10388">Norbert Poka_TM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22affectedVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22fixVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/NPT-30">RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_assignee_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19642-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>testing</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-119">
+                     <strike>NPT-119</strike>                 </a>
+            </td>
+            <td>
+                Verificarea compatibilității meniului...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-46">
+                     <strike>NPT-46</strike>                 </a>
+            </td>
+            <td>
+                Documentul: ”Raport privind Strategia...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19642-value" class="value" bgcolor="#ffffff" width="80%">NPT Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Documentului amintit în sumar nu i s-au așezat într-un mod corespunzător imaginile.</p>
+
+<p><b>Precondiții</b> </p>
+
+<ul>
+	<li>Este utilizat pentru testare un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Google Chrome, împreună cu un set de periferice și monitor.</li>
+	<li>Prezența trebuie să fie realizată pe pagina principală a site-ului web: <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+</ul>
+
+
+<p><b>Pași de reproducere</b></p>
+
+<ul>
+	<li>Se accesează pagina principală a <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+	<li>Se apasă pe tasta ”F12” a tastaturii de pe suprafața pe care este așezată, și se caută opțiunea ”Dimensiuni” (aproximativ pe mijlocul ecranul).</li>
+	<li>Se apasă pe ”Dimensiuni”, și din lista de opțiuni ce se afișează va fi selectat: Samsung Galaxy S20 Ultra.</li>
+	<li>Pe urmă, se caută meniul ”RUTI conform SNA”.</li>
+	<li>Se indentifică secțiunea: ”Rapoarte anuale”.</li>
+	<li>Se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe secțiunea: ”Rapoarte anuale”.</li>
+	<li>După, se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe documentul: ”Raport privind Strategia Nationala Anticoruptie pe anul 2019”.</li>
+	<li>Se verifică așezarea imaginilor din document.</li>
+</ul>
+
+
+<p><b>Rezultate așteptate</b></p>
+
+<ul>
+	<li>Imaginile din document sunt așezate în mod corespunzător.</li>
+</ul>
+
+
+<p><b>Rezultate actuale</b></p>
+
+<ul>
+	<li>Imaginile din document nu sunt așezate corespunzător.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/NPT-30">RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/NPT-30">NPT-30</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [NPT-118]&nbsp;<a href="https://itfclasses.atlassian.net/browse/NPT-118">(iPad Pro) Documentul: ”Raport privind Strategia Nationala Anticoruptie pe anul 2019” nu are așezate corespunzător imaginile</a>
+            <span class="subText">
+               Created: 25/Jul/24                   &nbsp;Updated: 25/Jul/24
+
+                                                    &nbsp;Resolved: 25/Jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10388">Norbert Poka_TM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22affectedVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22fixVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/NPT-30">RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_assignee_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19640-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>testare</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-117">
+                     <strike>NPT-117</strike>                 </a>
+            </td>
+            <td>
+                Verificarea compatibilității meniului...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-46">
+                     <strike>NPT-46</strike>                 </a>
+            </td>
+            <td>
+                Documentul: ”Raport privind Strategia...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19640-value" class="value" bgcolor="#ffffff" width="80%">NPT Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Documentului amintit în sumar nu i s-au așezat într-un mod corespunzător imaginile.</p>
+
+<p><b>Precondiții</b> </p>
+
+<ul>
+	<li>Este utilizat pentru testare un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Google Chrome, împreună cu un set de periferice și monitor.</li>
+	<li>Prezența trebuie să fie realizată pe pagina principală a site-ului web: <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+</ul>
+
+
+<p><b>Pași de reproducere</b></p>
+
+<ul>
+	<li>Se accesează pagina principală a <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+	<li>Se apasă pe tasta ”F12” a tastaturii de pe suprafața pe care este așezată, și se caută opțiunea ”Dimensiuni” (aproximativ pe mijlocul ecranul).</li>
+	<li>Se apasă pe ”Dimensiuni”, și din lista de opțiuni ce se afișează va fi selectat: iPad Pro.</li>
+	<li>Pe urmă, se caută meniul ”RUTI conform SNA”.</li>
+	<li>Se indentifică secțiunea: ”Rapoarte anuale”.</li>
+	<li>Se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe secțiunea: ”Rapoarte anuale”.</li>
+	<li>După, se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe documentul: ”Raport privind Strategia Nationala Anticoruptie pe anul 2019”.</li>
+	<li>Se verifică așezarea imaginilor din document.</li>
+</ul>
+
+
+<p><b>Rezultate așteptate</b></p>
+
+<ul>
+	<li>Imaginile din document sunt așezate în mod corespunzător.</li>
+</ul>
+
+
+<p><b>Rezultate actuale</b></p>
+
+<ul>
+	<li>Imaginile din document nu sunt așezate corespunzător.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/NPT-30">RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/NPT-30">NPT-30</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [NPT-116]&nbsp;<a href="https://itfclasses.atlassian.net/browse/NPT-116">(Microsoft Edge) Documentul: ”Raport privind Strategia Nationala Anticoruptie pe anul 2019” nu are așezate corespunzător imaginile</a>
+            <span class="subText">
+               Created: 25/Jul/24                   &nbsp;Updated: 25/Jul/24
+
+                                                    &nbsp;Resolved: 25/Jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10388">Norbert Poka_TM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22affectedVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22fixVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/NPT-30">RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_assignee_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19638-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>testare</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-115">
+                     <strike>NPT-115</strike>                 </a>
+            </td>
+            <td>
+                Verificarea compatibilității meniului...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-46">
+                     <strike>NPT-46</strike>                 </a>
+            </td>
+            <td>
+                Documentul: ”Raport privind Strategia...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19638-value" class="value" bgcolor="#ffffff" width="80%">NPT Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Documentului amintit în sumar nu i s-au așezat într-un mod corespunzător imaginile.</p>
+
+<p><b>Precondiții</b> </p>
+
+<ul>
+	<li>Este utilizat pentru testare un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Microsoft Edge, împreună cu un set de periferice și monitor.</li>
+	<li>Prezența trebuie să fie realizată pe pagina principală a site-ului web: <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+</ul>
+
+
+<p><b>Pași de reproducere</b></p>
+
+<ul>
+	<li>Se accesează pagina principală a <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+	<li>Pe urmă, se caută meniul ”RUTI conform SNA”.</li>
+	<li>Se indentifică secțiunea: ”Rapoarte anuale”.</li>
+	<li>Se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe secțiunea: ”Rapoarte anuale”.</li>
+	<li>După, se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe documentul: ”Raport privind Strategia Nationala Anticoruptie pe anul 2019”.</li>
+	<li>Se verifică așezarea imaginilor din document.</li>
+</ul>
+
+
+<p><b>Rezultate așteptate</b></p>
+
+<ul>
+	<li>Imaginile din document sunt așezate în mod corespunzător.</li>
+</ul>
+
+
+<p><b>Rezultate actuale</b></p>
+
+<ul>
+	<li>Imaginile din document nu sunt așezate corespunzător.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/NPT-30">RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/NPT-30">NPT-30</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [NPT-112]&nbsp;<a href="https://itfclasses.atlassian.net/browse/NPT-112">(Mozilla Firefox) Documentul: ”Raport privind Strategia Nationala Anticoruptie pe anul 2019” nu are așezate corespunzător imaginile</a>
+            <span class="subText">
+               Created: 25/Jul/24                   &nbsp;Updated: 25/Jul/24
+
+                                                    &nbsp;Resolved: 25/Jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10388">Norbert Poka_TM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22affectedVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22fixVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/NPT-30">RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_assignee_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19634-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>testare</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-111">
+                     <strike>NPT-111</strike>                 </a>
+            </td>
+            <td>
+                Verificarea compatibilității meniului...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-46">
+                     <strike>NPT-46</strike>                 </a>
+            </td>
+            <td>
+                Documentul: ”Raport privind Strategia...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19634-value" class="value" bgcolor="#ffffff" width="80%">NPT Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Documentului amintit în sumar nu i s-au așezat într-un mod corespunzător imaginile.</p>
+
+<p><b>Precondiții</b> </p>
+
+<ul>
+	<li>Este utilizat pentru testare un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Mozilla Firefox, împreună cu un set de periferice și monitor.</li>
+	<li>Prezența trebuie să fie realizată pe pagina principală a site-ului web: <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+</ul>
+
+
+<p><b>Pași de reproducere</b></p>
+
+<ul>
+	<li>Se accesează pagina principală a <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+	<li>Pe urmă, se caută meniul ”RUTI conform SNA”.</li>
+	<li>Se indentifică secțiunea: ”Rapoarte anuale”.</li>
+	<li>Se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe secțiunea: ”Rapoarte anuale”.</li>
+	<li>După, se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe documentul: ”Raport privind Strategia Nationala Anticoruptie pe anul 2019”.</li>
+	<li>Se verifică așezarea imaginilor din document.</li>
+</ul>
+
+
+<p><b>Rezultate așteptate</b></p>
+
+<ul>
+	<li>Imaginile din document sunt așezate în mod corespunzător.</li>
+</ul>
+
+
+<p><b>Rezultate actuale</b></p>
+
+<ul>
+	<li>Imaginile din document nu sunt așezate corespunzător.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/NPT-30">RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/NPT-30">NPT-30</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [NPT-110]&nbsp;<a href="https://itfclasses.atlassian.net/browse/NPT-110">Documentul: ”Raport privind Strategia Nationala Anticoruptie pe anul 2019” nu are așezate corespunzător imaginile</a>
+            <span class="subText">
+               Created: 25/Jul/24                   &nbsp;Updated: 25/Jul/24
+
+                                                    &nbsp;Resolved: 25/Jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10388">Norbert Poka_TM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22affectedVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22fixVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/NPT-30">RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_assignee_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19632-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>testare</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://itfclasses.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Screenshot (17758).png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://itfclasses.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Screenshot (17759).png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-109">
+                     <strike>NPT-109</strike>                 </a>
+            </td>
+            <td>
+                Verificarea structurii și a funcționa...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-46">
+                     <strike>NPT-46</strike>                 </a>
+            </td>
+            <td>
+                Documentul: ”Raport privind Strategia...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19632-value" class="value" bgcolor="#ffffff" width="80%">NPT Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Documentului amintit în sumar nu i s-au așezat într-un mod corespunzător imaginile.</p>
+
+<p><b>Precondiții</b> </p>
+
+<ul>
+	<li>Este utilizat pentru testare un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Microsoft Edge, împreună cu un set de periferice și monitor.</li>
+	<li>Prezența trebuie să fie realizată pe pagina principală a site-ului web: <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+</ul>
+
+
+<p><b>Pași de reproducere</b></p>
+
+<ul>
+	<li>Se accesează pagina principală a <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+	<li>Pe urmă, se caută meniul ”RUTI conform SNA”.</li>
+	<li>Se indentifică secțiunea: ”Rapoarte anuale”.</li>
+	<li>Se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe secțiunea: ”Rapoarte anuale”.</li>
+	<li>După, se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe documentul: ”Raport privind Strategia Nationala Anticoruptie pe anul 2019”.</li>
+	<li>Se verifică așezarea imaginilor din document.</li>
+</ul>
+
+
+<p><b>Rezultate așteptate</b></p>
+
+<ul>
+	<li>Imaginile din document sunt așezate în mod corespunzător.</li>
+</ul>
+
+
+<p><b>Rezultate actuale</b></p>
+
+<ul>
+	<li>Imaginile din document nu sunt așezate corespunzător.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10114"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_commented_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">25/Jul/24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10114"><td bgcolor="#ffffff">
+            
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/11639" alt="Screenshot (17758).png" height="1013" width="1373" style="border: 0px solid black" /></span></p>
+
+
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/11640" alt="Screenshot (17759).png" height="1009" width="1374" style="border: 0px solid black" /></span></p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/NPT-25">NPT-25</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [NPT-108]&nbsp;<a href="https://itfclasses.atlassian.net/browse/NPT-108">(Microsoft Edge) Butonul ”Ministerul Dezvoltării Regionale și Turismului”, din meniul ”Link-uri Utile”, nu redirecționează utilizatorul final către site-ul web așteptat</a>
+            <span class="subText">
+               Created: 25/Jul/24                   &nbsp;Updated: 25/Jul/24
+
+                                                    &nbsp;Resolved: 25/Jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10388">Norbert Poka_TM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22affectedVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22fixVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_assignee_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19630-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>testare</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-100">
+                     <strike>NPT-100</strike>                 </a>
+            </td>
+            <td>
+                Verificarea compatibilității meniului...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-56">
+                     <strike>NPT-56</strike>                 </a>
+            </td>
+            <td>
+                Buton: ”Ministerul Dezvoltării Region...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19630-value" class="value" bgcolor="#ffffff" width="80%">NPT Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Butonul amintit în sumar nu conduce utilizatorul final către site-ul web așteptat, ci către: <a href="http://www.mdlpl.ro/" title="smart-link" class="external-link" rel="nofollow noreferrer">http://www.mdlpl.ro/</a>.</p>
+
+<p><b>Precondiții</b> </p>
+
+<ul>
+	<li>Este utilizat pentru testare un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Microsoft Edge, împreună cu un set de periferice și monitor.</li>
+	<li>Prezența trebuie să fie realizată pe pagina principală a site-ului web: <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+</ul>
+
+
+<p><b>Pași de reproducere</b></p>
+
+<ul>
+	<li>Se accesează pagina principală a <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+	<li>Pe urmă, se caută meniul ”Link-uri utile”/sidebar-ul (pe partea dreaptă).</li>
+	<li>Se indentifică butonul: ”Ministerul Dezvoltării Regionale și Turismului”.</li>
+	<li>Se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe butonul ”Ministerul Dezvoltării Regionale și Turismului”.</li>
+</ul>
+
+
+<p><b>Rezultate așteptate</b></p>
+
+<ul>
+	<li>Butonul redirecționează utilizatorul final către site-ul web așteptat.</li>
+</ul>
+
+
+<p><b>Rezultate actuale</b></p>
+
+<ul>
+	<li>Utilizatorul final nu este condus către site-ul web așteptat.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/NPT-25">NPT-25</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [NPT-107]&nbsp;<a href="https://itfclasses.atlassian.net/browse/NPT-107">(Microsoft Edge) Butonul ”AM PODCA”, din meniul ”Link-uri Utile”, redirecționează utilizatorul final către un site web inaccesibil</a>
+            <span class="subText">
+               Created: 25/Jul/24                   &nbsp;Updated: 25/Jul/24
+
+                                                    &nbsp;Resolved: 25/Jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10388">Norbert Poka_TM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22affectedVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22fixVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_assignee_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19629-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>testare</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-100">
+                     <strike>NPT-100</strike>                 </a>
+            </td>
+            <td>
+                Verificarea compatibilității meniului...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-49">
+                     <strike>NPT-49</strike>                 </a>
+            </td>
+            <td>
+                Buton: ”AM PODCA”
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19629-value" class="value" bgcolor="#ffffff" width="80%">NPT Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Butonul amintit în sumar conduce utilizatorul final către un site web care nu poate fi accesat: <a href="https://www.fonduriadministratie.ro" class="external-link" rel="nofollow noreferrer">https://www.fonduriadministratie.ro</a></p>
+
+<p><b>Precondiții</b> </p>
+
+<ul>
+	<li>Este utilizat pentru testare un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Microsoft Edge, împreună cu un set de periferice și monitor.</li>
+	<li>Prezența trebuie să fie realizată pe pagina principală a site-ului web: <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+</ul>
+
+
+<p><b>Pași de reproducere</b></p>
+
+<ul>
+	<li>Se accesează pagina principală a <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+	<li>Pe urmă, se caută meniul ”Link-uri utile”/sidebar-ul (pe partea dreaptă).</li>
+	<li>Se indentifică butonul: ”AM PODCA”.</li>
+	<li>Se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe butonul ”AM PODCA”.</li>
+</ul>
+
+
+<p><b>Rezultate așteptate</b></p>
+
+<ul>
+	<li>Butonul redirecționează utilizatorul final către un site web accesibil.</li>
+</ul>
+
+
+<p><b>Rezultate actuale</b></p>
+
+<ul>
+	<li>Utilizatorul final este condus către un site web care nu poate fi accesat.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/NPT-25">NPT-25</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [NPT-106]&nbsp;<a href="https://itfclasses.atlassian.net/browse/NPT-106">(Samsung Galaxy S20 Ultra) Butonul ”Ministerul Dezvoltării Regionale și Turismului”, din meniul ”Link-uri Utile”, nu redirecționează utilizatorul final către site-ul web așteptat</a>
+            <span class="subText">
+               Created: 25/Jul/24                   &nbsp;Updated: 25/Jul/24
+
+                                                    &nbsp;Resolved: 25/Jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10388">Norbert Poka_TM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22affectedVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22fixVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_assignee_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19628-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>testare</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-99">
+                     <strike>NPT-99</strike>                 </a>
+            </td>
+            <td>
+                Verificarea compatibilității meniului...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-56">
+                     <strike>NPT-56</strike>                 </a>
+            </td>
+            <td>
+                Buton: ”Ministerul Dezvoltării Region...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19628-value" class="value" bgcolor="#ffffff" width="80%">NPT Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Butonul amintit în sumar nu conduce utilizatorul final către site-ul web așteptat, ci către: <a href="http://www.mdlpl.ro/" title="smart-link" class="external-link" rel="nofollow noreferrer">http://www.mdlpl.ro/</a>.</p>
+
+<p><b>Precondiții</b> </p>
+
+<ul>
+	<li>Este utilizat pentru testare un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Google Chrome, împreună cu un set de periferice și monitor.</li>
+	<li>Prezența trebuie să fie realizată pe pagina principală a site-ului web: <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+</ul>
+
+
+<p><b>Pași de reproducere</b></p>
+
+<ul>
+	<li>Se accesează pagina principală a <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+	<li>Se apasă pe tasta ”F12” a tastaturii de pe suprafața pe care este așezată, și se caută opțiunea ”Dimensiuni” (aproximativ pe mijlocul ecranul).</li>
+	<li>Se apasă pe ”Dimensiuni”, și din lista de opțiuni ce se afișează va fi selectat: iPad Pro.</li>
+	<li>Pe urmă, se caută meniul ”Link-uri utile”/sidebar-ul (pe partea dreaptă).</li>
+	<li>Se indentifică butonul: ”AM PODCA”.</li>
+	<li>Se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe butonul ”AM PODCA”.</li>
+</ul>
+
+
+<p><b>Rezultate așteptate</b></p>
+
+<ul>
+	<li>Butonul redirecționează utilizatorul final către site-ul web așteptat.</li>
+</ul>
+
+
+<p><b>Rezultate actuale</b></p>
+
+<ul>
+	<li>Utilizatorul final nu este condus către site-ul web așteptat.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/NPT-25">NPT-25</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [NPT-105]&nbsp;<a href="https://itfclasses.atlassian.net/browse/NPT-105">(Samsung Galaxy S20 Ultra) Butonul ”AM PODCA”, din meniul ”Link-uri Utile”, redirecționează utilizatorul final către un site web inaccesibil</a>
+            <span class="subText">
+               Created: 25/Jul/24                   &nbsp;Updated: 25/Jul/24
+
+                                                    &nbsp;Resolved: 25/Jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10388">Norbert Poka_TM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22affectedVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22fixVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_assignee_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19627-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>testare</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-99">
+                     <strike>NPT-99</strike>                 </a>
+            </td>
+            <td>
+                Verificarea compatibilității meniului...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-49">
+                     <strike>NPT-49</strike>                 </a>
+            </td>
+            <td>
+                Buton: ”AM PODCA”
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19627-value" class="value" bgcolor="#ffffff" width="80%">NPT Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Butonul amintit în sumar conduce utilizatorul final către un site web care nu poate fi accesat: <a href="https://www.fonduriadministratie.ro" class="external-link" rel="nofollow noreferrer">https://www.fonduriadministratie.ro</a></p>
+
+<p><b>Precondiții</b> </p>
+
+<ul>
+	<li>Este utilizat pentru testare un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Google Chrome, împreună cu un set de periferice și monitor.</li>
+	<li>Prezența trebuie să fie realizată pe pagina principală a site-ului web: <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+</ul>
+
+
+<p><b>Pași de reproducere</b></p>
+
+<ul>
+	<li>Se accesează pagina principală a <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+	<li>Se apasă pe tasta ”F12” a tastaturii de pe suprafața pe care este așezată, și se caută opțiunea ”Dimensiuni” (aproximativ pe mijlocul ecranul).</li>
+	<li>Se apasă pe ”Dimensiuni”, și din lista de opțiuni ce se afișează va fi selectat: Samsung Galaxy S20 Ultra.</li>
+	<li>Pe urmă, se caută meniul ”Link-uri utile”/sidebar-ul (pe partea dreaptă).</li>
+	<li>Se indentifică butonul: ”AM PODCA”.</li>
+	<li>Se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe butonul ”AM PODCA”.</li>
+</ul>
+
+
+<p><b>Rezultate așteptate</b></p>
+
+<ul>
+	<li>Butonul redirecționează utilizatorul final către un site web accesibil.</li>
+</ul>
+
+
+<p><b>Rezultate actuale</b></p>
+
+<ul>
+	<li>Utilizatorul final este condus către un site web care nu poate fi accesat.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/NPT-25">NPT-25</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [NPT-104]&nbsp;<a href="https://itfclasses.atlassian.net/browse/NPT-104">(Mozilla Firefox) Butonul ”Ministerul Dezvoltării Regionale și Turismului”, din meniul ”Link-uri Utile”, nu redirecționează utilizatorul final către site-ul web așteptat</a>
+            <span class="subText">
+               Created: 25/Jul/24                   &nbsp;Updated: 25/Jul/24
+
+                                                    &nbsp;Resolved: 25/Jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10388">Norbert Poka_TM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22affectedVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22fixVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_assignee_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19626-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>testare</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-95">
+                     <strike>NPT-95</strike>                 </a>
+            </td>
+            <td>
+                Verificarea compatibilității meniului...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-56">
+                     <strike>NPT-56</strike>                 </a>
+            </td>
+            <td>
+                Buton: ”Ministerul Dezvoltării Region...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19626-value" class="value" bgcolor="#ffffff" width="80%">NPT Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Butonul amintit în sumar nu conduce utilizatorul final către site-ul web așteptat, ci către: <a href="http://www.mdlpl.ro/" title="smart-link" class="external-link" rel="nofollow noreferrer">http://www.mdlpl.ro/</a>.</p>
+
+<p><b>Precondiții</b> </p>
+
+<ul>
+	<li>Este utilizat pentru testare un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Mozilla Firefox, împreună cu un set de periferice și monitor.</li>
+	<li>Prezența trebuie să fie realizată pe pagina principală a site-ului web: <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+</ul>
+
+
+<p><b>Pași de reproducere</b></p>
+
+<ul>
+	<li>Se accesează pagina principală a <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+	<li>Pe urmă, se caută meniul ”Link-uri utile”/sidebar-ul (pe partea dreaptă).</li>
+	<li>Se indentifică butonul: ”Ministerul Dezvoltării Regionale și Turismului”.</li>
+	<li>Se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe butonul ”Ministerul Dezvoltării Regionale și Turismului”.</li>
+</ul>
+
+
+<p><b>Rezultate așteptate</b></p>
+
+<ul>
+	<li>Butonul redirecționează utilizatorul final către site-ul web așteptat.</li>
+</ul>
+
+
+<p><b>Rezultate actuale</b></p>
+
+<ul>
+	<li>Utilizatorul final nu este condus către site-ul web așteptat.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/NPT-25">NPT-25</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [NPT-103]&nbsp;<a href="https://itfclasses.atlassian.net/browse/NPT-103">(Mozilla Firefox) Butonul ”AM PODCA”, din meniul ”Link-uri Utile”, redirecționează utilizatorul final către un site web inaccesibil</a>
+            <span class="subText">
+               Created: 25/Jul/24                   &nbsp;Updated: 25/Jul/24
+
+                                                    &nbsp;Resolved: 25/Jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10388">Norbert Poka_TM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22affectedVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22fixVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_assignee_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19625-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>testare</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-95">
+                     <strike>NPT-95</strike>                 </a>
+            </td>
+            <td>
+                Verificarea compatibilității meniului...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-49">
+                     <strike>NPT-49</strike>                 </a>
+            </td>
+            <td>
+                Buton: ”AM PODCA”
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19625-value" class="value" bgcolor="#ffffff" width="80%">NPT Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Butonul amintit în sumar conduce utilizatorul final către un site web care nu poate fi accesat: <a href="https://www.fonduriadministratie.ro" class="external-link" rel="nofollow noreferrer">https://www.fonduriadministratie.ro</a></p>
+
+<p><b>Precondiții</b> </p>
+
+<ul>
+	<li>Este utilizat pentru testare un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Mozilla Firefox, împreună cu un set de periferice și monitor.</li>
+	<li>Prezența trebuie să fie realizată pe pagina principală a site-ului web: <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+</ul>
+
+
+<p><b>Pași de reproducere</b></p>
+
+<ul>
+	<li>Se accesează pagina principală a <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+	<li>Pe urmă, se caută meniul ”Link-uri utile”/sidebar-ul (pe partea dreaptă).</li>
+	<li>Se indentifică butonul: ”AM PODCA”.</li>
+	<li>Se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe butonul ”AM PODCA”.</li>
+</ul>
+
+
+<p><b>Rezultate așteptate</b></p>
+
+<ul>
+	<li>Butonul redirecționează utilizatorul final către un site web accesibil.</li>
+</ul>
+
+
+<p><b>Rezultate actuale</b></p>
+
+<ul>
+	<li>Utilizatorul final este condus către un site web care nu poate fi accesat.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/NPT-25">NPT-25</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [NPT-102]&nbsp;<a href="https://itfclasses.atlassian.net/browse/NPT-102">(iPad Pro) Butonul ”Ministerul Dezvoltării Regionale și Turismului”, din meniul ”Link-uri Utile”, nu redirecționează utilizatorul final către site-ul web așteptat</a>
+            <span class="subText">
+               Created: 25/Jul/24                   &nbsp;Updated: 25/Jul/24
+
+                                                    &nbsp;Resolved: 25/Jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10388">Norbert Poka_TM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22affectedVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22fixVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_assignee_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19624-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>testare</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-94">
+                     <strike>NPT-94</strike>                 </a>
+            </td>
+            <td>
+                Verificarea compatibilității meniului...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-56">
+                     <strike>NPT-56</strike>                 </a>
+            </td>
+            <td>
+                Buton: ”Ministerul Dezvoltării Region...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19624-value" class="value" bgcolor="#ffffff" width="80%">NPT Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Butonul amintit în sumar nu conduce utilizatorul final către site-ul web așteptat, ci către: <a href="http://www.mdlpl.ro/" title="smart-link" class="external-link" rel="nofollow noreferrer">http://www.mdlpl.ro/</a>.</p>
+
+<p><b>Precondiții</b> </p>
+
+<ul>
+	<li>Este utilizat pentru testare un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Google Chrome, împreună cu un set de periferice și monitor.</li>
+	<li>Prezența trebuie să fie realizată pe pagina principală a site-ului web: <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+</ul>
+
+
+<p><b>Pași de reproducere</b></p>
+
+<ul>
+	<li>Se accesează pagina principală a <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+	<li>Se apasă pe tasta ”F12” a tastaturii de pe suprafața pe care este așezată, și se caută opțiunea ”Dimensiuni” (aproximativ pe mijlocul ecranul).</li>
+	<li>Se apasă pe ”Dimensiuni”, și din lista de opțiuni ce se afișează va fi selectat: iPad Pro.</li>
+	<li>Pe urmă, se caută meniul ”Link-uri utile”/sidebar-ul (pe partea dreaptă).</li>
+	<li>Se indentifică butonul: ”AM PODCA”.</li>
+	<li>Se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe butonul ”AM PODCA”.</li>
+</ul>
+
+
+<p><b>Rezultate așteptate</b></p>
+
+<ul>
+	<li>Butonul redirecționează utilizatorul final către site-ul web așteptat.</li>
+</ul>
+
+
+<p><b>Rezultate actuale</b></p>
+
+<ul>
+	<li>Utilizatorul final nu este condus către site-ul web așteptat.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/NPT-25">NPT-25</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [NPT-101]&nbsp;<a href="https://itfclasses.atlassian.net/browse/NPT-101">(iPad Pro) Butonul ”AM PODCA”, din meniul ”Link-uri Utile”, redirecționează utilizatorul final către un site web inaccesibil</a>
+            <span class="subText">
+               Created: 25/Jul/24                   &nbsp;Updated: 25/Jul/24
+
+                                                    &nbsp;Resolved: 25/Jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10388">Norbert Poka_TM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22affectedVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22fixVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_assignee_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19623-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>testare</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-94">
+                     <strike>NPT-94</strike>                 </a>
+            </td>
+            <td>
+                Verificarea compatibilității meniului...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-49">
+                     <strike>NPT-49</strike>                 </a>
+            </td>
+            <td>
+                Buton: ”AM PODCA”
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19623-value" class="value" bgcolor="#ffffff" width="80%">NPT Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Butonul amintit în sumar conduce utilizatorul final către un site web care nu poate fi accesat: <a href="https://www.fonduriadministratie.ro" class="external-link" rel="nofollow noreferrer">https://www.fonduriadministratie.ro</a></p>
+
+<p><b>Precondiții</b> </p>
+
+<ul>
+	<li>Este utilizat pentru testare un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Google Chrome, împreună cu un set de periferice și monitor.</li>
+	<li>Prezența trebuie să fie realizată pe pagina principală a site-ului web: <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+</ul>
+
+
+<p><b>Pași de reproducere</b></p>
+
+<ul>
+	<li>Se accesează pagina principală a <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+	<li>Se apasă pe tasta ”F12” a tastaturii de pe suprafața pe care este așezată, și se caută opțiunea ”Dimensiuni” (aproximativ pe mijlocul ecranul).</li>
+	<li>Se apasă pe ”Dimensiuni”, și din lista de opțiuni ce se afișează va fi selectat: iPad Pro.</li>
+	<li>Pe urmă, se caută meniul ”Link-uri utile”/sidebar-ul (pe partea dreaptă).</li>
+	<li>Se indentifică butonul: ”AM PODCA”.</li>
+	<li>Se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe butonul ”AM PODCA”.</li>
+</ul>
+
+
+<p><b>Rezultate așteptate</b></p>
+
+<ul>
+	<li>Butonul redirecționează utilizatorul final către un site web accesibil.</li>
+</ul>
+
+
+<p><b>Rezultate actuale</b></p>
+
+<ul>
+	<li>Utilizatorul final este condus către un site web care nu poate fi accesat.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/NPT-25">NPT-25</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [NPT-97]&nbsp;<a href="https://itfclasses.atlassian.net/browse/NPT-97">Butonul ”Ministerul Dezvoltării Regionale și Turismului”, din meniul ”Link-uri Utile”, nu redirecționează utilizatorul final către site-ul web așteptat</a>
+            <span class="subText">
+               Created: 25/Jul/24                   &nbsp;Updated: 25/Jul/24
+
+                                                    &nbsp;Resolved: 25/Jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10388">Norbert Poka_TM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22affectedVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22fixVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_assignee_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19619-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>testare</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://itfclasses.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Screenshot (17598).png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-93">
+                     <strike>NPT-93</strike>                 </a>
+            </td>
+            <td>
+                Verificarea structurii și a funcționa...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-56">
+                     <strike>NPT-56</strike>                 </a>
+            </td>
+            <td>
+                Buton: ”Ministerul Dezvoltării Region...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19619-value" class="value" bgcolor="#ffffff" width="80%">NPT Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Butonul amintit în sumar nu conduce utilizatorul final către site-ul web așteptat, ci către: <a href="http://www.mdlpl.ro/" title="smart-link" class="external-link" rel="nofollow noreferrer">http://www.mdlpl.ro/</a>.</p>
+
+<p><b>Precondiții</b> </p>
+
+<ul>
+	<li>Este utilizat pentru testare un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Google Chrome, împreună cu un set de periferice și monitor.</li>
+	<li>Prezența trebuie să fie realizată pe pagina principală a site-ului web: <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+</ul>
+
+
+<p><b>Pași de reproducere</b></p>
+
+<ul>
+	<li>Se accesează pagina principală a <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+	<li>Pe urmă, se caută meniul ”Link-uri utile”/sidebar-ul (pe partea dreaptă).</li>
+	<li>Se indentifică butonul: ”Ministerul Dezvoltării Regionale și Turismului”.</li>
+	<li>Se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe butonul ”Ministerul Dezvoltării Regionale și Turismului”.</li>
+</ul>
+
+
+<p><b>Rezultate așteptate</b></p>
+
+<ul>
+	<li>Butonul redirecționează utilizatorul final către site-ul web așteptat.</li>
+</ul>
+
+
+<p><b>Rezultate actuale</b></p>
+
+<ul>
+	<li>Utilizatorul final nu este condus către site-ul web așteptat.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10113"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_commented_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">25/Jul/24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10113"><td bgcolor="#ffffff">
+            
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/11638" alt="Screenshot (17598).png" height="1006" width="1772" style="border: 0px solid black" /></span></p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://itfclasses.atlassian.net/browse/NPT-25">NPT-25</a>)</span>
+                <h3 class="formtitle"><img src="https://itfclasses.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [NPT-96]&nbsp;<a href="https://itfclasses.atlassian.net/browse/NPT-96">Butonul ”AM PODCA”, din meniul ”Link-uri Utile”, redirecționează utilizatorul final către un site web inaccesibil</a>
+            <span class="subText">
+               Created: 25/Jul/24                   &nbsp;Updated: 25/Jul/24
+
+                                                    &nbsp;Resolved: 25/Jul/24
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/secure/BrowseProject.jspa?id=10388">Norbert Poka_TM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22affectedVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="Primariatechirghiol.ro_versiunea_1.0_limba_română - Acesta reprezintă proiectul final pentru examenul de acreditare. În această versiune limba română este dominantă."
+                href="https://itfclasses.atlassian.net/issues/?jql=project%3D10388%20AND%20%22fixVersion%22%3D10538%20ORDER%20BY%20priority%20ASC"
+            >Primariatechirghiol.ro_versiunea_1.0_limba_română</a>                        </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://itfclasses.atlassian.net/browse/NPT-25">Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_reporter_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_assignee_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-19618-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>testare</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://itfclasses.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Screenshot (17599).png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-93">
+                     <strike>NPT-93</strike>                 </a>
+            </td>
+            <td>
+                Verificarea structurii și a funcționa...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://itfclasses.atlassian.net/browse/NPT-49">
+                     <strike>NPT-49</strike>                 </a>
+            </td>
+            <td>
+                Buton: ”AM PODCA”
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-19618-value" class="value" bgcolor="#ffffff" width="80%">NPT Sprint 1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Butonul amintit în sumar conduce utilizatorul final către un site web care nu poate fi accesat: <a href="https://www.fonduriadministratie.ro" class="external-link" rel="nofollow noreferrer">https://www.fonduriadministratie.ro</a></p>
+
+<p><b>Precondiții</b> </p>
+
+<ul>
+	<li>Este utilizat pentru testare un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Google Chrome, împreună cu un set de periferice și monitor.</li>
+	<li>Prezența trebuie să fie realizată pe pagina principală a site-ului web: <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+</ul>
+
+
+<p><b>Pași de reproducere</b></p>
+
+<ul>
+	<li>Se accesează pagina principală a <a href="https://www.primariatechirghiol.ro/" class="external-link" rel="nofollow noreferrer">https://www.primariatechirghiol.ro</a>.</li>
+	<li>Pe urmă, se caută meniul ”Link-uri utile”/sidebar-ul (pe partea dreaptă).</li>
+	<li>Se indentifică butonul: ”AM PODCA”.</li>
+	<li>Se apasă butonul stâng al mouse-ului/șoarecelui de pe suprafața pe care este așezată, click-ul fiind poziționat pe butonul ”AM PODCA”.</li>
+</ul>
+
+
+<p><b>Rezultate așteptate</b></p>
+
+<ul>
+	<li>Butonul redirecționează utilizatorul final către un site web accesibil.</li>
+</ul>
+
+
+<p><b>Rezultate actuale</b></p>
+
+<ul>
+	<li>Utilizatorul final este condus către un site web care nu poate fi accesat.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10112"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                id="word_commented_712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67"
+                href="https://itfclasses.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aac03dc4b-ffe6-4f35-ba83-41f3c30a3c67">
+                    IT Factory
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">25/Jul/24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10112"><td bgcolor="#ffffff">
+            
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/11637" alt="Screenshot (17599).png" height="455" width="1756" style="border: 0px solid black" /></span></p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generated at Thu Jul 25 17:53:31 UTC 2024 by IT Factory using Jira 1001.0.0-SNAPSHOT#100259-rev:526ca62d0e2def526173eaa446a363e48cb37b9f.
+
+</body>
+</html>
