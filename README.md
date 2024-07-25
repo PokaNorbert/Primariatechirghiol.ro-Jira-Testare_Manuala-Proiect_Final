@@ -8,9 +8,12 @@ Instrumente utilizate: Jira și Zephyr Squad.
 
 <h2>Specificații funcționale:</h2>
 
-Story-ul de mai jos a fost creat în Jira și descrie specificațiile funcționale ale **, pentru care se realizează proiectul final.
+Story-urile de mai jos au fost create în Jira și descriu unele specificații funcționale ale site-ului web al Primăriei Techirghiol, pentru care se realizează proiectul final:![Screenshot (18836)](https://github.com/user-attachments/assets/dd41c737-50f0-497d-a5ea-cfc3494f6a20)
 
-Aici puteți găsi versiunea care a fost creată pentru acest proiect:**
+Aici puteți găsi versiunea care a fost creată pentru acest proiect:
+![Screenshot (18838)](https://github.com/user-attachments/assets/4f7e6be1-2dc9-4184-baab-c4ade6fe54cb)
+![Screenshot (18839)](https://github.com/user-attachments/assets/476bc442-3aa5-4207-9ca5-7e10d9f25b95)
+![Screenshot (18840)](https://github.com/user-attachments/assets/d1c0de20-37a0-43a2-952c-2ad020373642)
 
 <h2>Procesul testării</h2>
 
@@ -22,7 +25,7 @@ Planul de testare este conceput pentru a descrie toate amănuntele testării.
 
 Planul identifică elementele de testat, caracteristicile de testat, tipurile de testare care trebuie efectuate, personalul responsabil de testare, resursele și programul necesar pentru finalizarea testării și riscurile asociate cu planul. Planul de testare care a fost creat pentru acest proiect poate fi găsit aici:
 
-[Plan de testare - Primăria Techirghiol.pdf](https://shorturl.at/CyqdA) - 
+[Plan de testare - Primăria Techirghiol.pdf](https://shorturl.at/CyqdA) 
 
 <h4>1.1.1. Persoane alocate și roluri atribuite proiectului</h4>
 
