@@ -41,11 +41,8 @@ Planul identifică elementele de testat, caracteristicile de testat, tipurile de
 <h4>1.1.2 Criteriile de intrare definite</h4>
 Criteriile de intrare în testare reprezintă următoarele:
 <ul>
-  <li>riscurile de produs au fost gășite și mitigate;</li> 
-  <li>riscurile de proiect au fost și ele identificate și moderate;</li> 
+  <li>riscurile de proiect au fost identificate și moderate;</li> 
   <li>rolurile și responsabilitățile au fost alocate și agreate;</li> 
-  <li>mediul de testare este pregătit;</li> 
-  <li>s-a realizat Smoke testing-ul;</li> 
   <li>termenele limită au fost stabilite;</li> 
   <li>domeniul de aplicare a fost stabilit și comunicat membrilor echipei;</li> 
   <li>obiectivele testării au fost definite și transmise membrilor echipei.</li> 
@@ -54,6 +51,7 @@ Criteriile de intrare în testare reprezintă următoarele:
 <h4>1.1.3 Criterii de ieșire definite</h4>
 Iar criteriile de ieșire din testare sunt acestea:
 <ul>
+  <li>riscurile de produs au fost gășite și mitigate;</li> 
   <li>nu au rămas defecte critice deschise;</li> 
   <li>termenele limită au fost respectate;</li> 
   <li>cel puțin 85% din toate testele sunt trecute;</li> 
@@ -79,13 +77,13 @@ Iar criteriile de ieșire din testare sunt acestea:
 
 <h4>1.1.5 Riscuri detectate</h4>
 
-<h5>Riscuri de proiect:</h5>
+<h5>Riscuri de produs:</h5>
 Riscul asociat cu produsul final este cel imediat menționat:
 <ul>
   <li>potențial pică pagina web dacă este încărcată cu exagerat de multe date.</li> 
 </ul>
 
-<h5>Riscuri de produs:</h5>
+<h5>Riscuri de proiect:</h5>
 În timp ce riscurile asociate proiectului sunt cele următoare:
 <ul>
   <li>membrul echipei-QA 2 riscă să se infecteze cu virusul COVID-19 din cauza faptului că unde înoptează sunt persoane bolnave de COVID-19, și nu are posibilitatea de a petrece nopțile în altă locuință sau încăpere, ceea ce poate crește volumul de lucru al celorlalți membri ai echipei;</li>
@@ -141,6 +139,20 @@ Deoarece criteriile de ieșire au fost îndeplinite, Echipa de testare sugereaz�
 
 Matricea de trasabilitate a fost generată, și poate fi găsită aici:
 ![Screenshot (18828)](https://github.com/user-attachments/assets/37b1a9ed-a0ee-472e-8967-cf6700e3d68d)
+
+Legătura între story-uri, teste și bug-uri/defecte este reflectată în mod corespunzător cu ajutorul Matricii de Trasabilitate. 
+
+Matricea de mai sus ne poate înfățișa un număr de 14 story-uri. În captura de ecran atașată sunt vizibile 10 story-uri. 
+
+Numărul ridicat de defecte/bug-uri afișat este cauzat de faptul că multe defecte sunt asociate mai multor teste, nu doar unui singur. Astfel, au fost create mai multe legături nocive experienței de utilizare pe site-ul web.
+
+Story-ul denumit ”NPT-57” este legat de 5 test condition-uri: NPT-93-94-95-99-100. 
+
+Pe baza aceleași legături: ”Story-Test condition”, ”NPT-45” este legat tot de 5 test condition-uri: NPT-109-111-115-117-119, iar ”NPT-43” doar de ”NPT-121”.
+
+În total sunt 11 de test condition-uri. Majoritatea acoperă mai mult de un story.
+
+Au fost identificate 15 bug-uri/defecte. Acestea sunt distribuite la 11 story-uri. 
 
 Diagrama de execuție a testului a fost generată, și poate fi găsită mai jos:
 ![Screenshot (18812)](https://github.com/user-attachments/assets/c35f9cf2-f3a3-4e8b-b6ca-290a98fe09ca)
