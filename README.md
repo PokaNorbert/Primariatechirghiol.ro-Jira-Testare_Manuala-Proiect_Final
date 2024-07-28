@@ -151,6 +151,7 @@ Legătura între story-uri, teste și bug-uri/defecte este reflectată în mod c
 </ul>
 
 Diagrama de execuție a testului a fost generată, și poate fi găsită mai jos:
+
 ![Screenshot (18812)](https://github.com/user-attachments/assets/c35f9cf2-f3a3-4e8b-b6ca-290a98fe09ca)
 ![Screenshot (18588) - Copy](https://github.com/user-attachments/assets/297522a8-a0b1-44c8-8103-6c2b1e24434b)
 
