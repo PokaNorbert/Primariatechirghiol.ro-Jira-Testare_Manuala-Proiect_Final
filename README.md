@@ -142,12 +142,12 @@ Matricea de trasabilitate a fost generată, și poate fi găsită aici:
 
 Legătura între story-uri, teste și bug-uri/defecte este reflectată în mod corespunzător cu ajutorul Matricii de Trasabilitate: 
 <ul>
-  <li>Matricea de mai sus ne poate înfățișa un număr de 14 story-uri. În captura de ecran atașată sunt vizibile 10 story-uri.</li> 
-  <li>Numărul ridicat de defecte/bug-uri afișat este cauzat de faptul că multe defecte sunt asociate mai multor teste, nu doar unui singur. Astfel, au fost create mai multe legături nocive experienței de utilizare pe site-ul web.</li>
-  <li>Story-ul denumit ”NPT-57” este legat de 5 test condition-uri: NPT-93-94-95-99-100.</li> 
-  <li>Pe baza aceleași legături: ”Story-Test condition”, ”NPT-45” este legat tot de 5 test condition-uri: NPT-109-111-115-117-119, iar ”NPT-43” doar de ”NPT-121”.</li>
-  <li>În total sunt 11 de test condition-uri. Majoritatea acoperă mai mult de un story.</li>
-  <li>Au fost identificate 15 bug-uri/defecte. Acestea sunt distribuite la 11 story-uri.</li>
+  <li>Matricea de mai sus ne poate înfățișa un număr de 14 story-uri (în captura de ecran atașată sunt vizibile 10 story-uri);</li> 
+  <li>Numărul ridicat de defecte/bug-uri afișat este cauzat de faptul că multe defecte sunt asociate mai multor teste, nu doar unui singur (astfel, au fost create mai multe legături nocive experienței de utilizare pe site-ul web);</li>
+  <li>Story-ul denumit ”NPT-57” este legat de 5 test condition-uri: NPT-93-94-95-99-100;</li> 
+  <li>Pe baza aceleași legături: ”Story-Test condition”, ”NPT-45” este legat tot de 5 test condition-uri: NPT-109-111-115-117-119, iar ”NPT-43” doar de ”NPT-121”;</li>
+  <li>În total sunt 11 de test condition-uri (majoritatea acoperă mai mult de un story);</li>
+  <li>Au fost identificate 15 bug-uri/defecte (acestea sunt distribuite la 11 story-uri).</li>
 </ul>
 
 Diagrama de execuție a testului a fost generată, și poate fi găsită mai jos:
