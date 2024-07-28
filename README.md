@@ -116,11 +116,11 @@ Cazurile de testare funcționale au fost create în Zephyr Squad pe baza analize
 
 Următoarele elemente sunt necesare pentru a fi pregătite înainte de începerea fazei de execuție a testării:
 <ul>
-  <li>Mediul de testare este pregătit din toate punctele de vedere;
-  <li>Datele de testare sunt disponibile și exacte;
-  <li>Sunt grupate cele mai importante cazuri de testare;
-  <li>Sunt permisiuni disponibile;
-  <li>Smoke test-ul a fost trecut.
+  <li>Mediul de testare este pregătit din toate punctele de vedere;</li>
+  <li>Datele de testare sunt disponibile și exacte;</li>
+  <li>Sunt grupate cele mai importante cazuri de testare;</li>
+  <li>Sunt permisiuni disponibile;</li>
+  <li>Smoke test-ul a fost trecut.</li>
 </ul>
 
 <h3>1.6. Execuția testării</h3>
@@ -131,7 +131,7 @@ Au fost create defecte/bug-uri pe baza testelor eșuate. Rapoartele complete ale
 [Document-Bugs](https://github.com/PokaNorbert/Primariatechirghiol.ro-Jira-Testare_Manuala-Proiect_Final/blob/main/Bugs/Document-Bugs.doc)
 
 Următorul este un rezumat al defectelor/bug-urilor care au fost găsite:
-********
+*
 Este necesară testare completă de regresie pe zonele afectate după ce erorile sunt remediate, iar după va trebui retestată fiecare funcționalitate care a eșuat anterior.
 
 <h3>1.7 Încheierea testării</h3>
@@ -140,19 +140,15 @@ Deoarece criteriile de ieșire au fost îndeplinite, Echipa de testare sugereaz�
 Matricea de trasabilitate a fost generată, și poate fi găsită aici:
 ![Screenshot (18828)](https://github.com/user-attachments/assets/37b1a9ed-a0ee-472e-8967-cf6700e3d68d)
 
-Legătura între story-uri, teste și bug-uri/defecte este reflectată în mod corespunzător cu ajutorul Matricii de Trasabilitate. 
-
-Matricea de mai sus ne poate înfățișa un număr de 14 story-uri. În captura de ecran atașată sunt vizibile 10 story-uri. 
-
-Numărul ridicat de defecte/bug-uri afișat este cauzat de faptul că multe defecte sunt asociate mai multor teste, nu doar unui singur. Astfel, au fost create mai multe legături nocive experienței de utilizare pe site-ul web.
-
-Story-ul denumit ”NPT-57” este legat de 5 test condition-uri: NPT-93-94-95-99-100. 
-
-Pe baza aceleași legături: ”Story-Test condition”, ”NPT-45” este legat tot de 5 test condition-uri: NPT-109-111-115-117-119, iar ”NPT-43” doar de ”NPT-121”.
-
-În total sunt 11 de test condition-uri. Majoritatea acoperă mai mult de un story.
-
-Au fost identificate 15 bug-uri/defecte. Acestea sunt distribuite la 11 story-uri. 
+Legătura între story-uri, teste și bug-uri/defecte este reflectată în mod corespunzător cu ajutorul Matricii de Trasabilitate: 
+<ul>
+  <li>Matricea de mai sus ne poate înfățișa un număr de 14 story-uri. În captura de ecran atașată sunt vizibile 10 story-uri.</li> 
+  <li>Numărul ridicat de defecte/bug-uri afișat este cauzat de faptul că multe defecte sunt asociate mai multor teste, nu doar unui singur. Astfel, au fost create mai multe legături nocive experienței de utilizare pe site-ul web.</li>
+  <li>Story-ul denumit ”NPT-57” este legat de 5 test condition-uri: NPT-93-94-95-99-100.</li> 
+  <li>Pe baza aceleași legături: ”Story-Test condition”, ”NPT-45” este legat tot de 5 test condition-uri: NPT-109-111-115-117-119, iar ”NPT-43” doar de ”NPT-121”.</li>
+  <li>În total sunt 11 de test condition-uri. Majoritatea acoperă mai mult de un story.</li>
+  <li>Au fost identificate 15 bug-uri/defecte. Acestea sunt distribuite la 11 story-uri.</li>
+</ul>
 
 Diagrama de execuție a testului a fost generată, și poate fi găsită mai jos:
 ![Screenshot (18812)](https://github.com/user-attachments/assets/c35f9cf2-f3a3-4e8b-b6ca-290a98fe09ca)
