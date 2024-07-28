@@ -131,7 +131,8 @@ Au fost create defecte/bug-uri pe baza testelor eșuate. Rapoartele complete ale
 [Document-Bugs](https://github.com/PokaNorbert/Primariatechirghiol.ro-Jira-Testare_Manuala-Proiect_Final/blob/main/Bugs/Document-Bugs.doc)
 
 Următorul este un rezumat al defectelor/bug-urilor care au fost găsite:
-*
+![Bugs (Priority+Severity)](https://github.com/user-attachments/assets/fb73874d-6948-4595-868f-d3fae0f54dc4)
+
 Este necesară testare completă de regresie pe zonele afectate după ce erorile sunt remediate, iar după va trebui retestată fiecare funcționalitate care a eșuat anterior.
 
 <h3>1.7 Încheierea testării</h3>
