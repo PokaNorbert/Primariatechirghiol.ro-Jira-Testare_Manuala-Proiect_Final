@@ -51,7 +51,7 @@ Criteriile de intrare în testare reprezintă următoarele:
 <h4>1.1.3 Criterii de ieșire definite</h4>
 Iar criteriile de ieșire din testare sunt acestea:
 <ul>
-  <li>riscurile de produs au fost gășite și mitigate;</li> 
+  <li>riscurile de produs au fost găsite și mitigate;</li> 
   <li>nu au rămas defecte critice deschise;</li> 
   <li>termenele limită au fost respectate;</li> 
   <li>cel puțin 85% din toate testele sunt trecute;</li> 
