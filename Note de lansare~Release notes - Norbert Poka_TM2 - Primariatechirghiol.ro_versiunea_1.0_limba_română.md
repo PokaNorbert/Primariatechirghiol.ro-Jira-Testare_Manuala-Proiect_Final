@@ -1,7 +1,7 @@
 # Release notes - Norbert Poka\_TM2 - Primariatechirghiol.ro\_versiunea\_1.0\_limba\_română
 
 
-MAI URMEAZĂ MODIFICĂRI (perioada: Septembrie-Noiembrie)
+MAI URMEAZĂ MODIFICĂRI (perioada: Septembrie-Octombrie-Noiembrie + perioadă de studii pentru ISTQB și recapitulări: August-Octombrie) 
 
 
 
