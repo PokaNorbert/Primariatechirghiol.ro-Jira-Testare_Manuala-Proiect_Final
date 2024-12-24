@@ -1,7 +1,7 @@
 <h1>Proiect de testare al site-ului web al Primăriei Techirghiol</h1>
 
 
-MAI URMEAZĂ MODIFICĂRI (perioada: Septembrie-Octombrie-Noiembrie + perioadă de studii pentru ISTQB și recapitulări: August-Octombrie+examene-Noiembrie-Decembrie) 
+MAI URMEAZĂ MODIFICĂRI (ISTQB-ul este luat începând cu 16 Decembrie 2024; postări noi sau actualizări vor apărea la anul) 
 
 
 Scopul proiectului final pentru „Cursul de testare manuală IT Factory” reprezintă utilizarea tuturor cunoștințelor asimilate de-a lungul sesiunilor de curs, și de a le putea aplica în mod practic.
