@@ -1,7 +1,7 @@
 # Release notes - Norbert Poka\_TM2 - Primariatechirghiol.ro\_versiunea\_1.0\_limba\_română
 
 
-MAI URMEAZĂ MODIFICĂRI (ISTQB-ul este luat începând cu 16 Decembrie 2024; postări noi sau actualizări vor apărea la anul) 
+ISTQB-ul este luat începând cu 16 Decembrie 2024. Postări noi sau actualizări vor apărea în cursul anului următor. 
 
 
 
