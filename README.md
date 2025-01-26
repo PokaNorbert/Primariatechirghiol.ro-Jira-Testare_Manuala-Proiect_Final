@@ -1,7 +1,7 @@
 <h1>Proiect de testare al site-ului web al Primăriei Techirghiol</h1>
 
 
-ISTQB-ul este luat începând cu 16 Decembrie 2024. Postări noi sau actualizări vor apărea în cursul anului următor. 
+ISTQB-ul este luat începând cu 16 Decembrie 2024. Voi reveni la începutul lunii februarie. În următoarele săptămâni voi acorda prioritate sesiunii de examene de la facultate.
 
 
 Scopul proiectului final pentru „Cursul de testare manuală IT Factory” reprezintă utilizarea tuturor cunoștințelor asimilate de-a lungul sesiunilor de curs, și de a le putea aplica în mod practic.
