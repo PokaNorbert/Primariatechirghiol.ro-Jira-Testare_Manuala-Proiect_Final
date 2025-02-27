@@ -1,5 +1,4 @@
 # Release notes - Norbert Poka\_TM2 - Primariatechirghiol.ro\_versiunea\_1.0\_limba\_română
-
 ### Test
 
 [NPT-93](https://itfclasses.atlassian.net/browse/NPT-93) Verificarea structurii și a funcționalității meniului ”Link-uri Utile”
