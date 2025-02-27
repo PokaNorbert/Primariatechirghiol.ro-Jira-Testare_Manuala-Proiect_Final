@@ -1,10 +1,5 @@
 # Release notes - Norbert Poka\_TM2 - Primariatechirghiol.ro\_versiunea\_1.0\_limba\_română
 
-
-ISTQB-ul este luat începând cu 16 Decembrie 2024. Unele rânduri trebuie rescrise, așadar În perioada 17-27 Februarie se va finaliza întreaga actualizare. 
-
-
-
 ### Test
 
 [NPT-93](https://itfclasses.atlassian.net/browse/NPT-93) Verificarea structurii și a funcționalității meniului ”Link-uri Utile”
