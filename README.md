@@ -168,5 +168,5 @@ Consecințele despre testarea efectuată reprezintă următoarele:
   <li>Numărul total de teste create este: 11, toate fiind executate;</li>
   <li>Procentul de acoperire al testelor din domeniul de aplicare este: 100%;</li>
   <li>Pentru proiectele viitoare este nevoie de un nivel și mai ridicat al atenției umane, și de creșterea vitezei de lucru;
-  <li>Majoritatea defectelor au un nivel ridicat de severitate. Toate defectele afectează interacțiunea pe care utilizatorul final o are cu site-ul web al primăriei. Așadar, există probabilitatea ca utilizatorul final să piardă timp prețios stând pe site-ul web.</li>
+  <li>Majoritatea defectelor au un nivel mediu de severitate. Toate defectele afectează interacțiunea pe care utilizatorul final o are cu site-ul web al primăriei. Așadar, există probabilitatea ca utilizatorul final să piardă timp prețios stând pe site-ul web.</li>
 </ul>
