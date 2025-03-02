@@ -129,7 +129,7 @@ Următoarele elemente sunt necesare pentru a fi pregătite înainte de începere
 Cazurile de testare sunt executate pe Rezumatul ciclului de testare/Cycle summary-ul creat: ”Primariatechirghiol_versiunea_1.0_limba_română”.
 
 Au fost create defecte/bug-uri pe baza testelor eșuate. Rapoartele complete ale erorilor pot fi găsite aici:
-[Document-Bugs](https://github.com/PokaNorbert/Primariatechirghiol.ro-Jira-Testare_Manuala-Proiect_Final/blob/main/Bugs/Document-Bugs.doc)
+[Defecte~Bugs](https://github.com/PokaNorbert/Primariatechirghiol.ro-Jira-Testare_Manuala-Proiect_Final/tree/ultima_versiune_rom%C3%A2n%C4%83/Defecte~Bugs)
 
 Următorul este un rezumat al defectelor/bug-urilor care au fost găsite:
 ![Bugs (Priority+Severity)](https://github.com/user-attachments/assets/fb73874d-6948-4595-868f-d3fae0f54dc4)
