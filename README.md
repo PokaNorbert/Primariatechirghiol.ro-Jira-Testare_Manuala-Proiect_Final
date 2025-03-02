@@ -110,7 +110,7 @@ Au fost clădite următoarele test condition-uri:
 <h3>1.4 Proiectarea/Design-ul testării</h3>
 
 Cazurile de testare funcționale au fost create în Zephyr Squad pe baza analizei specificațiilor. Cazurile de testare pot fi accesate aici:
-[Document-TestCases](https://github.com/PokaNorbert/Primariatechirghiol.ro-Jira-Testare_Manuala-Proiect_Final/blob/main/TestCases/Document-TestCases.doc)
+[Document-TestCases](https://github.com/PokaNorbert/Primariatechirghiol.ro-Jira-Testare_Manuala-Proiect_Final/tree/ultima_versiune_rom%C3%A2n%C4%83/Cazuri%20de%20Testare~TestCases)
 
 <h3>1.5 Implementarea testării</h3>
 
