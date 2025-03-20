@@ -15,11 +15,9 @@ Aici puteți găsi versiunea care a fost creată pentru acest proiect:
 ![Screenshot (18841)](https://github.com/user-attachments/assets/cf0efd5d-01a2-44cb-b9f2-51ed45697818)
 
 <h2>Procesul testării</h2>
-
 Procesul de testare a fost operat pe baza procesului de testare standard, așa cum este descris mai jos.
 
 <h3>1.1 Planificarea testării</h3>
-
 Planul de testare este conceput pentru a descrie toate amănuntele testării.
 
 Planul identifică elementele de testat, caracteristicile de testat, tipurile de testare care trebuie efectuate, personalul responsabil de testare, resursele și programul necesar pentru finalizarea testării și riscurile asociate cu planul. Planul de testare care a fost creat pentru acest proiect poate fi găsit aici:
@@ -27,7 +25,6 @@ Planul identifică elementele de testat, caracteristicile de testat, tipurile de
 [Plan de testare - Primăria Techirghiol.pdf](https://github.com/PokaNorbert/Primariatechirghiol.ro-Jira-Testare_Manuala-Proiect_Final/blob/ultima_versiune_rom%C3%A2n%C4%83/Plan%20de%20testare%20-%20Prim%C4%83ria%20Techirghiol.pdf)
 
 <h4>1.1.1. Persoane alocate și roluri atribuite proiectului</h4>
-
 <ul>
   <li>Csipas Valeriu - Project manager/Managerul proiectului</li> 
   <li>Moga Constantin - Product owner/Proprietarul produsului</li> 
@@ -60,7 +57,6 @@ Iar criteriile de ieșire din testare sunt acestea:
 </ul>
 
 <h4>1.1.4 Domeniul de testare</h4>
-
 <h5>Teste în domeniul de aplicare:</h5>
 <ul>
   <li>Testarea cerințelor funcționale, de performanță, de cazuri de utilizare;</li> 
@@ -76,7 +72,6 @@ Iar criteriile de ieșire din testare sunt acestea:
 </ul>
 
 <h4>1.1.5 Riscuri detectate</h4>
-
 <h5>Riscuri de produs:</h5>
 Riscul asociat cu produsul final este cel imediat menționat:
 <ul>
@@ -91,7 +86,6 @@ Riscul asociat cu produsul final este cel imediat menționat:
 </ul>
 
 <h4>1.1.6 Evaluarea criteriilor de intrare</h4>
-
 Criteriile de intrare definite în faza "Planificării testării" au fost atinse, procesul de testare putând continua.
   
 <h3>1.2 Monitorizarea și controlul testării</h3>
@@ -101,19 +95,16 @@ Procesul de testare a fost monitorizat continuu, de la început până la sfâr�
 ![Screenshot (18844)](https://github.com/user-attachments/assets/d2fa457e-f48f-4764-ae40-730123de3f12)
  
 <h3>1.3 Analiza testării</h3>
-
 Procesul de testare a fost executat pe baza cerințelor aplicației.
 Au fost clădite următoarele test condition-uri: 
 ![Screenshot (18809)](https://github.com/user-attachments/assets/45c0c12c-cc4f-4f62-adf6-aed3f952aa1c)
 
 
 <h3>1.4 Proiectarea/Design-ul testării</h3>
-
 Cazurile de testare funcționale au fost create în Zephyr Squad pe baza analizei specificațiilor. Cazurile de testare pot fi accesate aici:
 [Cazuri de Testare~TestCases](https://github.com/PokaNorbert/Primariatechirghiol.ro-Jira-Testare_Manuala-Proiect_Final/tree/ultima_versiune_rom%C3%A2n%C4%83/Cazuri%20de%20Testare~TestCases)
 
 <h3>1.5 Implementarea testării</h3>
-
 Următoarele elemente sunt necesare pentru a fi pregătite înainte de începerea fazei de execuție a testării:
 <ul>
   <li>Mediul de testare este pregătit din toate punctele de vedere;</li>
@@ -124,7 +115,6 @@ Următoarele elemente sunt necesare pentru a fi pregătite înainte de începere
 </ul>
 
 <h3>1.6. Execuția testării</h3>
-
 Cazurile de testare sunt executate pe Rezumatul ciclului de testare/Cycle summary-ul creat: ”Primariatechirghiol_versiunea_1.0_limba_română”.
 
 Au fost create defecte/bug-uri pe baza testelor eșuate. Rapoartele complete ale erorilor pot fi găsite aici:
@@ -162,7 +152,6 @@ Raportul final arată că un număr de 10 teste au eșuat dintr-un total de 11.
 Au fost găsite un număr de 15 defecte/bug-uri totale, dintre care niciunul nu este cu prioritate ridicată, iar 6 sunt cu prioritate medie.
 
 <h1>Consecințe ale testării</h1>
-
 Consecințele despre testarea efectuată reprezintă următoarele:
 <ul>
   <li>Numărul total de teste create este: 11, toate fiind executate;</li>
