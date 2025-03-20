@@ -96,13 +96,14 @@ Procesul de testare a fost monitorizat continuu, de la început până la sfâr�
  
 <h3>1.3 Analiza testării</h3>
 Procesul de testare a fost executat pe baza cerințelor aplicației.
+
 Au fost clădite următoarele test condition-uri: 
 ![Screenshot (18809)](https://github.com/user-attachments/assets/45c0c12c-cc4f-4f62-adf6-aed3f952aa1c)
 
-
 <h3>1.4 Proiectarea/Design-ul testării</h3>
 Cazurile de testare funcționale au fost create în Zephyr Squad pe baza analizei specificațiilor. Cazurile de testare pot fi accesate aici:
-[Cazuri de Testare~TestCases](https://github.com/PokaNorbert/Primariatechirghiol.ro-Jira-Testare_Manuala-Proiect_Final/tree/ultima_versiune_rom%C3%A2n%C4%83/Cazuri%20de%20Testare~TestCases)
+
+[Cazuri de Testare](https://github.com/PokaNorbert/Primariatechirghiol.ro-Jira-Testare_Manuala-Proiect_Final/tree/ultima_versiune_rom%C3%A2n%C4%83/Cazuri%20de%20Testare~TestCases)
 
 <h3>1.5 Implementarea testării</h3>
 Următoarele elemente sunt necesare pentru a fi pregătite înainte de începerea fazei de execuție a testării:
@@ -118,9 +119,11 @@ Următoarele elemente sunt necesare pentru a fi pregătite înainte de începere
 Cazurile de testare sunt executate pe Rezumatul ciclului de testare/Cycle summary-ul creat: ”Primariatechirghiol_versiunea_1.0_limba_română”.
 
 Au fost create defecte/bug-uri pe baza testelor eșuate. Rapoartele complete ale erorilor pot fi găsite aici:
-[Defecte~Bugs](https://github.com/PokaNorbert/Primariatechirghiol.ro-Jira-Testare_Manuala-Proiect_Final/tree/ultima_versiune_rom%C3%A2n%C4%83/Defecte~Bugs)
+
+[Defecte](https://github.com/PokaNorbert/Primariatechirghiol.ro-Jira-Testare_Manuala-Proiect_Final/tree/ultima_versiune_rom%C3%A2n%C4%83/Defecte~Bugs)
 
 Următorul este un rezumat al defectelor/bug-urilor care au fost găsite:
+
 ![Bugs (Priority+Severity)](https://github.com/user-attachments/assets/fb73874d-6948-4595-868f-d3fae0f54dc4)
 
 Este necesară testare completă de regresie pe zonele afectate după ce erorile sunt remediate, iar după va trebui retestată fiecare funcționalitate care a eșuat anterior.
