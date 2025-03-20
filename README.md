@@ -2,9 +2,9 @@
 
 Scopul proiectului final pentru „Cursul de testare manuală IT Factory” reprezintă utilizarea tuturor cunoștințelor asimilate de-a lungul sesiunilor de curs, și de a le putea aplica în mod practic.
 
-Părți testate din site-ul web: https://www.primariatechirghiol.ro
+Părți testate din **site-ul web**: https://www.primariatechirghiol.ro
 
-Instrumente utilizate: Jira și Zephyr Squad.
+**Instrumente** utilizate: Jira și Zephyr Squad.
 
 <h2>Specificații funcționale:</h2>
 
