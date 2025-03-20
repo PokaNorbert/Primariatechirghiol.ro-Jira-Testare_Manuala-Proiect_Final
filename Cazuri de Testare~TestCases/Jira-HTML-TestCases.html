@@ -1,0 +1,2125 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Jira</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\.";
+    mso-displayed-thousand-separator:"\,";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="96">
+            <img src="https://itfclasses.atlassian.net/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Jira">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="96">
+            <a href="https://itfclasses.atlassian.net/issues/?jql=project+%3D+NPT+AND+issuetype+%3D+Test+AND+fixVersion+%3D+Primariatechirghiol.ro_versiunea_1.0_limba_rom%C3%A2n%C4%83+ORDER+BY+created+DESC">Jira</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="96">
+            Displaying <strong>11</strong> issues at <strong>20/Mar/25 12:56 PM</strong>.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-statuscategorychangedate" data-id="statuscategorychangedate">
+                                                        Status Category Changed
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                                                        Work type
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10070" data-id="customfield_10070">
+                                                        Asset type
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10071" data-id="customfield_10071">
+                                                        Sentiment
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-timespent" data-id="timespent">
+                                                        Time Spent
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10030" data-id="customfield_10030">
+                                                        Total forms
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-project" data-id="project">
+                                                        Project
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-fixVersions" data-id="fixVersions">
+                                                        Fix versions
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-statusCategory" data-id="statusCategory">
+                                                        Status Category
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-aggregatetimespent" data-id="aggregatetimespent">
+                                                        Σ Time Spent
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10034" data-id="customfield_10034">
+                                                        Category
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-parent" data-id="parent">
+                                                        Parent
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-resolution" data-id="resolution">
+                                                        Resolution
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10035" data-id="customfield_10035">
+                                                        Project overview key
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10036" data-id="customfield_10036">
+                                                        Project overview status
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10027" data-id="customfield_10027">
+                                                        Locked forms
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10028" data-id="customfield_10028">
+                                                        Open forms
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10029" data-id="customfield_10029">
+                                                        Submitted forms
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-resolutiondate" data-id="resolutiondate">
+                                                        Resolved
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-workratio" data-id="workratio">
+                                                        Work Ratio
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-lastViewed" data-id="lastViewed">
+                                                        Last Viewed
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-watches" data-id="watches">
+                                                        Watchers
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-thumbnail" data-id="thumbnail">
+                                                        Images
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10060" data-id="customfield_10060">
+                                                        Root cause
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10061" data-id="customfield_10061">
+                                                        Workaround
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-created" data-id="created">
+                                                        Created
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10062" data-id="customfield_10062">
+                                                        Time to resolution
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10063" data-id="customfield_10063">
+                                                        Time to first response
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10064" data-id="customfield_10064">
+                                                        Time to close after resolution
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10020" data-id="customfield_10020">
+                                                        Sprint
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10065" data-id="customfield_10065">
+                                                        Time to review normal change
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10021" data-id="customfield_10021">
+                                                        Flagged
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10022" data-id="customfield_10022">
+                                                        Target start
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority" data-id="priority">
+                                                        Priority
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10023" data-id="customfield_10023">
+                                                        Target end
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10024" data-id="customfield_10024">
+                                                        [CHART] Date of First Response
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10069" data-id="customfield_10069">
+                                                        Department
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-labels" data-id="labels">
+                                                        Labels
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10016" data-id="customfield_10016">
+                                                        Story point estimate
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10017" data-id="customfield_10017">
+                                                        Issue color
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10018" data-id="customfield_10018">
+                                                            <span class="deprecated-searcher-icon" title="">
+                                    <div class="deprecated-tooltip table-deprecated-tooltip" role="tooltip" title="">
+                                        <p class="deprecated-tooltip-text table-deprecated-tooltip-text">
+                                            Parent Link will soon be replaced with Parent.
+                                        </p>
+                                    </div>
+                                </span>
+                                                        Parent Link
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10019" data-id="customfield_10019">
+                                                        Rank
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-timeestimate" data-id="timeestimate">
+                                                        Remaining Estimate
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-aggregatetimeoriginalestimate" data-id="aggregatetimeoriginalestimate">
+                                                        Σ Original Estimate
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-versions" data-id="versions">
+                                                        Affects versions
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuelinks" data-id="issuelinks">
+                                                        Linked Work items
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-assignee" data-id="assignee">
+                                                        Assignee
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-updated" data-id="updated">
+                                                        Updated
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status" data-id="status">
+                                                        Status
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-components" data-id="components">
+                                                        Components
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                                                        Key
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10050" data-id="customfield_10050">
+                                                        Responders
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10051" data-id="customfield_10051">
+                                                        Severity
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-timeoriginalestimate" data-id="timeoriginalestimate">
+                                                        Original estimate
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10052" data-id="customfield_10052">
+                                                        Affected hardware
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10053" data-id="customfield_10053">
+                                                        Planned start
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-description" data-id="description">
+                                                        Description
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10054" data-id="customfield_10054">
+                                                        Planned end
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10010" data-id="customfield_10010">
+                                                        Request Type
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10055" data-id="customfield_10055">
+                                                        Implementation plan
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10056" data-id="customfield_10056">
+                                                        Backout plan
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10057" data-id="customfield_10057">
+                                                        Test plan
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10058" data-id="customfield_10058">
+                                                        Source
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10014" data-id="customfield_10014">
+                                                            <span class="deprecated-searcher-icon" title="">
+                                    <div class="deprecated-tooltip table-deprecated-tooltip" role="tooltip" title="">
+                                        <p class="deprecated-tooltip-text table-deprecated-tooltip-text">
+                                            Epic Link will soon be replaced with Parent.
+                                        </p>
+                                    </div>
+                                </span>
+                                                        Epic Link
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10059" data-id="customfield_10059">
+                                                        Investigation reason
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10015" data-id="customfield_10015">
+                                                        Start date
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10049" data-id="customfield_10049">
+                                                        Major incident
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10005" data-id="customfield_10005">
+                                                        Change type
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10006" data-id="customfield_10006">
+                                                        Change risk
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-security" data-id="security">
+                                                        Security Level
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10007" data-id="customfield_10007">
+                                                        Change reason
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10008" data-id="customfield_10008">
+                                                        Actual start
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-aggregatetimeestimate" data-id="aggregatetimeestimate">
+                                                        Σ Remaining Estimate
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10009" data-id="customfield_10009">
+                                                        Actual end
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                                                        Summary
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-creator" data-id="creator">
+                                                        Creator
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-subtasks" data-id="subtasks">
+                                                        Sub-tasks
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10040" data-id="customfield_10040">
+                                                        Request participants
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10041" data-id="customfield_10041">
+                                                        Satisfaction
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-reporter" data-id="reporter">
+                                                        Reporter
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-aggregateprogress" data-id="aggregateprogress">
+                                                        Σ Progress
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10044" data-id="customfield_10044">
+                                                        Request language
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10000" data-id="customfield_10000">
+                                                        Development
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10045" data-id="customfield_10045">
+                                                        Urgency
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10001" data-id="customfield_10001">
+                                                        Team
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10046" data-id="customfield_10046">
+                                                        Affected services
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10002" data-id="customfield_10002">
+                                                        Organizations
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10047" data-id="customfield_10047">
+                                                        Pending reason
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10003" data-id="customfield_10003">
+                                                        Approvers
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10048" data-id="customfield_10048">
+                                                        Approver groups
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10004" data-id="customfield_10004">
+                                                        Impact
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10039" data-id="customfield_10039">
+                                                        Work category
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-environment" data-id="environment">
+                                                        Environment
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-duedate" data-id="duedate">
+                                                        Due date
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-progress" data-id="progress">
+                                                        Progress
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-votes" data-id="votes">
+                                                        Votes
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow19643" rel="19643" data-issuekey="NPT-121" class="issuerow">
+                                            <td class="statuscategorychangedate"> 25/Jul/24 8:14 PM </td>
+                                            <td class="issuetype">    Test
+</td>
+                                            <td class="customfield_10070"></td>
+                                            <td class="customfield_10071"></td>
+                                            <td class="timespent"></td>
+                                            <td class="customfield_10030"></td>
+                                            <td class="project">    Norbert Poka_TM2
+</td>
+                                            <td class="fixVersions">                        Primariatechirghiol.ro_versiunea_1.0_limba_română            </td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-green
+            jira-issue-status-lozenge-max-width-medium">Done</span>
+</td>
+                                            <td class="aggregatetimespent"></td>
+                                            <td class="customfield_10034"></td>
+                                            <td class="parent">            Videoclipul integrat în site-ul web (de sub cb_menu)
+    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="customfield_10035"></td>
+                                            <td class="customfield_10036"></td>
+                                            <td class="customfield_10027"></td>
+                                            <td class="customfield_10028"></td>
+                                            <td class="customfield_10029"></td>
+                                            <td class="resolutiondate"> 25/Jul/24 8:14 PM </td>
+                                            <td class="workratio">&nbsp;
+</td>
+                                            <td class="lastViewed"> 27/Feb/25 11:33 PM </td>
+                                            <td class="watches">1</td>
+                                            <td class="thumbnail"></td>
+                                            <td class="customfield_10060"></td>
+                                            <td class="customfield_10061"></td>
+                                            <td class="created"> 25/Jul/24 7:50 PM </td>
+                                            <td class="customfield_10062"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10063"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10064"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10020">NPT Sprint 1</td>
+                                            <td class="customfield_10065"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10021"></td>
+                                            <td class="customfield_10022"></td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="customfield_10023"></td>
+                                            <td class="customfield_10024"></td>
+                                            <td class="customfield_10069"></td>
+                                            <td class="labels"></td>
+                                            <td class="customfield_10016"></td>
+                                            <td class="customfield_10017"></td>
+                                            <td class="customfield_10018"></td>
+                                            <td class="customfield_10019">      0|i01fdl:
+  </td>
+                                            <td class="timeestimate"></td>
+                                            <td class="aggregatetimeoriginalestimate"></td>
+                                            <td class="versions">    &nbsp;
+</td>
+                                            <td class="issuelinks">                                        NPT-41,                                                NPT-42,                                                NPT-43                        </td>
+                                            <td class="assignee">            IT Factory
+    </td>
+                                            <td class="updated"> 27/Feb/25 3:24 PM </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="components">    &nbsp;
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="NPT-121" href="https://itfclasses.atlassian.net/browse/NPT-121">NPT-121</a>
+</td>
+                                            <td class="customfield_10050">Unsupported.
+</td>
+                                            <td class="customfield_10051"></td>
+                                            <td class="timeoriginalestimate"></td>
+                                            <td class="customfield_10052"></td>
+                                            <td class="customfield_10053"></td>
+                                            <td class="description">            Verificarea faptului că funcțiile și rularea videoclipului menționat în sumar nu au probleme pe site-ul web al primăriei Techirghiol.<br/>
+<br/>
+*Precondiții:* <br/>
+<br/>
+* Utilizatorul final deține un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Google Chrome, împreună cu un set de periferice și monitor.<br/>
+* Utilizatorul final utilizează browser-ul Google Chrome pentru a accesa pagina principală a site-ului web: [https://www.primariatechirghiol.ro|https://www.primariatechirghiol.ro/].<br/>
+<br/>
+*Criterii de acceptanță:*<br/>
+<br/>
+* În cadrul videoclipului nu se află butoane sau alte elemente care nu au legătură cu videoclipul.<br/>
+* Butoanele redirecționează corect utilizatorul final.<br/>
+* Opțiunile existente pentru videoclip în site-ul web funcționează conform așteptărilor.
+    </td>
+                                            <td class="customfield_10054"></td>
+                                            <td class="customfield_10010"></td>
+                                            <td class="customfield_10055"></td>
+                                            <td class="customfield_10056"></td>
+                                            <td class="customfield_10057"></td>
+                                            <td class="customfield_10058"></td>
+                                            <td class="customfield_10014">
+            Videoclipul integrat în site-ul web (de sub cb_menu)
+    </td>
+                                            <td class="customfield_10059"></td>
+                                            <td class="customfield_10015"></td>
+                                            <td class="customfield_10049">Unsupported.
+</td>
+                                            <td class="customfield_10005"></td>
+                                            <td class="customfield_10006"></td>
+                                            <td class="security"></td>
+                                            <td class="customfield_10007"></td>
+                                            <td class="customfield_10008"></td>
+                                            <td class="aggregatetimeestimate"></td>
+                                            <td class="customfield_10009"></td>
+                                            <td class="summary"><p>
+                Verificarea funcționalității videoclipului integrat în site-ul web (de sub cb_menu): ”iluminat public Techirghiol”
+    </p>
+</td>
+                                            <td class="creator">            IT Factory
+    </td>
+                                            <td class="subtasks"></td>
+                                            <td class="customfield_10040"></td>
+                                            <td class="customfield_10041"><div class="sd-feedback-rating-column"><span>No permission</span></div></td>
+                                            <td class="reporter">            IT Factory
+    </td>
+                                            <td class="aggregateprogress"></td>
+                                            <td class="customfield_10044"></td>
+                                            <td class="customfield_10000"></td>
+                                            <td class="customfield_10045"></td>
+                                            <td class="customfield_10001">    None
+</td>
+                                            <td class="customfield_10046"></td>
+                                            <td class="customfield_10002"><div class="shorten" id="customfield_10002-field">
+    </div>
+</td>
+                                            <td class="customfield_10047"></td>
+                                            <td class="customfield_10003"></td>
+                                            <td class="customfield_10048"></td>
+                                            <td class="customfield_10004"></td>
+                                            <td class="customfield_10039"></td>
+                                            <td class="environment"></td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="progress"></td>
+                                            <td class="votes">0</td>
+                    </tr>
+
+
+                <tr id="issuerow19641" rel="19641" data-issuekey="NPT-119" class="issuerow">
+                                            <td class="statuscategorychangedate"> 25/Jul/24 1:49 PM </td>
+                                            <td class="issuetype">    Test
+</td>
+                                            <td class="customfield_10070"></td>
+                                            <td class="customfield_10071"></td>
+                                            <td class="timespent"></td>
+                                            <td class="customfield_10030"></td>
+                                            <td class="project">    Norbert Poka_TM2
+</td>
+                                            <td class="fixVersions">                        Primariatechirghiol.ro_versiunea_1.0_limba_română            </td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-green
+            jira-issue-status-lozenge-max-width-medium">Done</span>
+</td>
+                                            <td class="aggregatetimespent"></td>
+                                            <td class="customfield_10034"></td>
+                                            <td class="parent">            RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)
+    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="customfield_10035"></td>
+                                            <td class="customfield_10036"></td>
+                                            <td class="customfield_10027"></td>
+                                            <td class="customfield_10028"></td>
+                                            <td class="customfield_10029"></td>
+                                            <td class="resolutiondate"> 25/Jul/24 1:49 PM </td>
+                                            <td class="workratio">&nbsp;
+</td>
+                                            <td class="lastViewed"> 27/Feb/25 11:33 PM </td>
+                                            <td class="watches">1</td>
+                                            <td class="thumbnail"></td>
+                                            <td class="customfield_10060"></td>
+                                            <td class="customfield_10061"></td>
+                                            <td class="created"> 25/Jul/24 1:49 PM </td>
+                                            <td class="customfield_10062"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10063"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10064"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10020">NPT Sprint 1</td>
+                                            <td class="customfield_10065"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10021"></td>
+                                            <td class="customfield_10022"></td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="customfield_10023"></td>
+                                            <td class="customfield_10024"></td>
+                                            <td class="customfield_10069"></td>
+                                            <td class="labels"></td>
+                                            <td class="customfield_10016"></td>
+                                            <td class="customfield_10017"></td>
+                                            <td class="customfield_10018"></td>
+                                            <td class="customfield_10019">      0|i01fd5:
+  </td>
+                                            <td class="timeestimate"></td>
+                                            <td class="aggregatetimeoriginalestimate"></td>
+                                            <td class="versions">    &nbsp;
+</td>
+                                            <td class="issuelinks">                                        NPT-44,                                                NPT-45,                                                NPT-46,                                                NPT-120                        </td>
+                                            <td class="assignee">            IT Factory
+    </td>
+                                            <td class="updated"> 25/Jul/24 2:04 PM </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="components">    &nbsp;
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="NPT-119" href="https://itfclasses.atlassian.net/browse/NPT-119">NPT-119</a>
+</td>
+                                            <td class="customfield_10050">Unsupported.
+</td>
+                                            <td class="customfield_10051"></td>
+                                            <td class="timeoriginalestimate"></td>
+                                            <td class="customfield_10052"></td>
+                                            <td class="customfield_10053"></td>
+                                            <td class="description">            Verificarea faptului că meniul menționat în sumar se prezintă aproximativ la fel pe Samsung Galaxy S20 Ultra (fără să fie generate defecte), fiind utilizat browser-ul Google Chrome, ca și atunci când utilizatorul final interacționează cu meniul utilizând calculatorul personal. <br/>
+<br/>
+*Precondiții:* <br/>
+<br/>
+* Utilizatorul final deține un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Google Chrome, împreună cu un set de periferice și monitor.<br/>
+* Utilizatorul final utilizează browser-ul Google Chrome pentru a accesa pagina principală a site-ului web: [https://www.primariatechirghiol.ro|https://www.primariatechirghiol.ro/].<br/>
+<br/>
+*Criterii de acceptanță:*<br/>
+<br/>
+* Meniul nu reprezintă în continuare niciun pericol pentru poziționarea altor elemente din acea zonă a site-ului web, fiind corect amplasat.<br/>
+* În cadrul meniului nu apar alte butoane sau alte elemente care nu au legătură cu meniul.<br/>
+* Butoanele nu suferă modificări de natură să provoace defecte în urma schimbării rezoluției de vizualizare.<br/>
+* Butoanele în continuare redirecționează utilizatorul final către site-urile web așteptate.
+    </td>
+                                            <td class="customfield_10054"></td>
+                                            <td class="customfield_10010"></td>
+                                            <td class="customfield_10055"></td>
+                                            <td class="customfield_10056"></td>
+                                            <td class="customfield_10057"></td>
+                                            <td class="customfield_10058"></td>
+                                            <td class="customfield_10014">
+            RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)
+    </td>
+                                            <td class="customfield_10059"></td>
+                                            <td class="customfield_10015"></td>
+                                            <td class="customfield_10049">Unsupported.
+</td>
+                                            <td class="customfield_10005"></td>
+                                            <td class="customfield_10006"></td>
+                                            <td class="security"></td>
+                                            <td class="customfield_10007"></td>
+                                            <td class="customfield_10008"></td>
+                                            <td class="aggregatetimeestimate"></td>
+                                            <td class="customfield_10009"></td>
+                                            <td class="summary"><p>
+                Verificarea compatibilității meniului ”RUTI conform SNA” cu Samsung Galaxy S20 Ultra
+    </p>
+</td>
+                                            <td class="creator">            IT Factory
+    </td>
+                                            <td class="subtasks"></td>
+                                            <td class="customfield_10040"></td>
+                                            <td class="customfield_10041"><div class="sd-feedback-rating-column"><span>No permission</span></div></td>
+                                            <td class="reporter">            IT Factory
+    </td>
+                                            <td class="aggregateprogress"></td>
+                                            <td class="customfield_10044"></td>
+                                            <td class="customfield_10000"></td>
+                                            <td class="customfield_10045"></td>
+                                            <td class="customfield_10001">    None
+</td>
+                                            <td class="customfield_10046"></td>
+                                            <td class="customfield_10002"><div class="shorten" id="customfield_10002-field">
+    </div>
+</td>
+                                            <td class="customfield_10047"></td>
+                                            <td class="customfield_10003"></td>
+                                            <td class="customfield_10048"></td>
+                                            <td class="customfield_10004"></td>
+                                            <td class="customfield_10039"></td>
+                                            <td class="environment"></td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="progress"></td>
+                                            <td class="votes">0</td>
+                    </tr>
+
+
+                <tr id="issuerow19639" rel="19639" data-issuekey="NPT-117" class="issuerow">
+                                            <td class="statuscategorychangedate"> 25/Jul/24 1:27 PM </td>
+                                            <td class="issuetype">    Test
+</td>
+                                            <td class="customfield_10070"></td>
+                                            <td class="customfield_10071"></td>
+                                            <td class="timespent"></td>
+                                            <td class="customfield_10030"></td>
+                                            <td class="project">    Norbert Poka_TM2
+</td>
+                                            <td class="fixVersions">                        Primariatechirghiol.ro_versiunea_1.0_limba_română            </td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-green
+            jira-issue-status-lozenge-max-width-medium">Done</span>
+</td>
+                                            <td class="aggregatetimespent"></td>
+                                            <td class="customfield_10034"></td>
+                                            <td class="parent">            RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)
+    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="customfield_10035"></td>
+                                            <td class="customfield_10036"></td>
+                                            <td class="customfield_10027"></td>
+                                            <td class="customfield_10028"></td>
+                                            <td class="customfield_10029"></td>
+                                            <td class="resolutiondate"> 25/Jul/24 1:27 PM </td>
+                                            <td class="workratio">&nbsp;
+</td>
+                                            <td class="lastViewed"> 27/Feb/25 11:32 PM </td>
+                                            <td class="watches">1</td>
+                                            <td class="thumbnail"></td>
+                                            <td class="customfield_10060"></td>
+                                            <td class="customfield_10061"></td>
+                                            <td class="created"> 25/Jul/24 1:27 PM </td>
+                                            <td class="customfield_10062"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10063"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10064"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10020">NPT Sprint 1</td>
+                                            <td class="customfield_10065"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10021"></td>
+                                            <td class="customfield_10022"></td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="customfield_10023"></td>
+                                            <td class="customfield_10024"></td>
+                                            <td class="customfield_10069"></td>
+                                            <td class="labels"></td>
+                                            <td class="customfield_10016"></td>
+                                            <td class="customfield_10017"></td>
+                                            <td class="customfield_10018"></td>
+                                            <td class="customfield_10019">      0|i01fcp:
+  </td>
+                                            <td class="timeestimate"></td>
+                                            <td class="aggregatetimeoriginalestimate"></td>
+                                            <td class="versions">    &nbsp;
+</td>
+                                            <td class="issuelinks">                                        NPT-44,                                                NPT-45,                                                NPT-46,                                                NPT-118                        </td>
+                                            <td class="assignee">            IT Factory
+    </td>
+                                            <td class="updated"> 25/Jul/24 2:04 PM </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="components">    &nbsp;
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="NPT-117" href="https://itfclasses.atlassian.net/browse/NPT-117">NPT-117</a>
+</td>
+                                            <td class="customfield_10050">Unsupported.
+</td>
+                                            <td class="customfield_10051"></td>
+                                            <td class="timeoriginalestimate"></td>
+                                            <td class="customfield_10052"></td>
+                                            <td class="customfield_10053"></td>
+                                            <td class="description">            Verificarea faptului că meniul menționat în sumar se prezintă aproximativ la fel pe iPad Pro (fără să fie generate defecte), fiind utilizat browser-ul Google Chrome, ca și atunci când utilizatorul final interacționează cu meniul utilizând calculatorul personal. <br/>
+<br/>
+*Precondiții:* <br/>
+<br/>
+* Utilizatorul final deține un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Google Chrome, împreună cu un set de periferice și monitor.<br/>
+* Utilizatorul final utilizează browser-ul Google Chrome pentru a accesa pagina principală a site-ului web: [https://www.primariatechirghiol.ro|https://www.primariatechirghiol.ro/].<br/>
+<br/>
+*Criterii de acceptanță:*<br/>
+<br/>
+* Meniul nu reprezintă în continuare niciun pericol pentru poziționarea altor elemente din acea zonă a site-ului web, fiind corect amplasat.<br/>
+* În cadrul meniului nu apar alte butoane sau alte elemente care nu au legătură cu meniul.<br/>
+* Butoanele nu suferă modificări de natură să provoace defecte în urma schimbării rezoluției de vizualizare.<br/>
+* Butoanele în continuare redirecționează utilizatorul final către site-urile web așteptate.
+    </td>
+                                            <td class="customfield_10054"></td>
+                                            <td class="customfield_10010"></td>
+                                            <td class="customfield_10055"></td>
+                                            <td class="customfield_10056"></td>
+                                            <td class="customfield_10057"></td>
+                                            <td class="customfield_10058"></td>
+                                            <td class="customfield_10014">
+            RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)
+    </td>
+                                            <td class="customfield_10059"></td>
+                                            <td class="customfield_10015"></td>
+                                            <td class="customfield_10049">Unsupported.
+</td>
+                                            <td class="customfield_10005"></td>
+                                            <td class="customfield_10006"></td>
+                                            <td class="security"></td>
+                                            <td class="customfield_10007"></td>
+                                            <td class="customfield_10008"></td>
+                                            <td class="aggregatetimeestimate"></td>
+                                            <td class="customfield_10009"></td>
+                                            <td class="summary"><p>
+                Verificarea compatibilității meniului ”RUTI conform SNA” cu iPad Pro
+    </p>
+</td>
+                                            <td class="creator">            IT Factory
+    </td>
+                                            <td class="subtasks"></td>
+                                            <td class="customfield_10040"></td>
+                                            <td class="customfield_10041"><div class="sd-feedback-rating-column"><span>No permission</span></div></td>
+                                            <td class="reporter">            IT Factory
+    </td>
+                                            <td class="aggregateprogress"></td>
+                                            <td class="customfield_10044"></td>
+                                            <td class="customfield_10000"></td>
+                                            <td class="customfield_10045"></td>
+                                            <td class="customfield_10001">    None
+</td>
+                                            <td class="customfield_10046"></td>
+                                            <td class="customfield_10002"><div class="shorten" id="customfield_10002-field">
+    </div>
+</td>
+                                            <td class="customfield_10047"></td>
+                                            <td class="customfield_10003"></td>
+                                            <td class="customfield_10048"></td>
+                                            <td class="customfield_10004"></td>
+                                            <td class="customfield_10039"></td>
+                                            <td class="environment"></td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="progress"></td>
+                                            <td class="votes">0</td>
+                    </tr>
+
+
+                <tr id="issuerow19637" rel="19637" data-issuekey="NPT-115" class="issuerow">
+                                            <td class="statuscategorychangedate"> 25/Jul/24 1:11 PM </td>
+                                            <td class="issuetype">    Test
+</td>
+                                            <td class="customfield_10070"></td>
+                                            <td class="customfield_10071"></td>
+                                            <td class="timespent"></td>
+                                            <td class="customfield_10030"></td>
+                                            <td class="project">    Norbert Poka_TM2
+</td>
+                                            <td class="fixVersions">                        Primariatechirghiol.ro_versiunea_1.0_limba_română            </td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-green
+            jira-issue-status-lozenge-max-width-medium">Done</span>
+</td>
+                                            <td class="aggregatetimespent"></td>
+                                            <td class="customfield_10034"></td>
+                                            <td class="parent">            RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)
+    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="customfield_10035"></td>
+                                            <td class="customfield_10036"></td>
+                                            <td class="customfield_10027"></td>
+                                            <td class="customfield_10028"></td>
+                                            <td class="customfield_10029"></td>
+                                            <td class="resolutiondate"> 25/Jul/24 1:11 PM </td>
+                                            <td class="workratio">&nbsp;
+</td>
+                                            <td class="lastViewed"> 27/Feb/25 11:32 PM </td>
+                                            <td class="watches">1</td>
+                                            <td class="thumbnail"></td>
+                                            <td class="customfield_10060"></td>
+                                            <td class="customfield_10061"></td>
+                                            <td class="created"> 25/Jul/24 1:11 PM </td>
+                                            <td class="customfield_10062"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10063"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10064"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10020">NPT Sprint 1</td>
+                                            <td class="customfield_10065"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10021"></td>
+                                            <td class="customfield_10022"></td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="customfield_10023"></td>
+                                            <td class="customfield_10024"></td>
+                                            <td class="customfield_10069"></td>
+                                            <td class="labels"></td>
+                                            <td class="customfield_10016"></td>
+                                            <td class="customfield_10017"></td>
+                                            <td class="customfield_10018"></td>
+                                            <td class="customfield_10019">      0|i01fc9:
+  </td>
+                                            <td class="timeestimate"></td>
+                                            <td class="aggregatetimeoriginalestimate"></td>
+                                            <td class="versions">    &nbsp;
+</td>
+                                            <td class="issuelinks">                                        NPT-44,                                                NPT-45,                                                NPT-46,                                                NPT-116                        </td>
+                                            <td class="assignee">            IT Factory
+    </td>
+                                            <td class="updated"> 25/Jul/24 2:03 PM </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="components">    &nbsp;
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="NPT-115" href="https://itfclasses.atlassian.net/browse/NPT-115">NPT-115</a>
+</td>
+                                            <td class="customfield_10050">Unsupported.
+</td>
+                                            <td class="customfield_10051"></td>
+                                            <td class="timeoriginalestimate"></td>
+                                            <td class="customfield_10052"></td>
+                                            <td class="customfield_10053"></td>
+                                            <td class="description">            Verificarea faptului că meniul menționat în sumar se prezintă exact la fel pe browser-ul Microsoft Edge, ca și atunci când utilizatorul final interacționează cu meniul utilizând browser-ul Google Chrome.<br/>
+<br/>
+*Precondiții:* <br/>
+<br/>
+* Utilizatorul final deține un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Microsoft Edge, împreună cu un set de periferice și monitor.<br/>
+* Utilizatorul final se află pe pagina principală a site-ului web: [https://www.primariatechirghiol.ro|https://www.primariatechirghiol.ro/].<br/>
+<br/>
+*Criterii de acceptanță:*<br/>
+<br/>
+* Meniul nu reprezintă în continuare niciun pericol pentru poziționarea altor elemente din acea zonă a site-ului web, fiind corect amplasat.<br/>
+* În cadrul meniului nu apar alte butoane sau alte elemente care nu au legătură cu meniul.<br/>
+* Butoanele nu suferă modificări de natură să provoace defecte în urma schimbării rezoluției de vizualizare.<br/>
+* Butoanele în continuare redirecționează utilizatorul final către site-urile web așteptate.
+    </td>
+                                            <td class="customfield_10054"></td>
+                                            <td class="customfield_10010"></td>
+                                            <td class="customfield_10055"></td>
+                                            <td class="customfield_10056"></td>
+                                            <td class="customfield_10057"></td>
+                                            <td class="customfield_10058"></td>
+                                            <td class="customfield_10014">
+            RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)
+    </td>
+                                            <td class="customfield_10059"></td>
+                                            <td class="customfield_10015"></td>
+                                            <td class="customfield_10049">Unsupported.
+</td>
+                                            <td class="customfield_10005"></td>
+                                            <td class="customfield_10006"></td>
+                                            <td class="security"></td>
+                                            <td class="customfield_10007"></td>
+                                            <td class="customfield_10008"></td>
+                                            <td class="aggregatetimeestimate"></td>
+                                            <td class="customfield_10009"></td>
+                                            <td class="summary"><p>
+                Verificarea compatibilității meniului ”RUTI conform SNA” cu browser-ul Microsoft Edge
+    </p>
+</td>
+                                            <td class="creator">            IT Factory
+    </td>
+                                            <td class="subtasks"></td>
+                                            <td class="customfield_10040"></td>
+                                            <td class="customfield_10041"><div class="sd-feedback-rating-column"><span>No permission</span></div></td>
+                                            <td class="reporter">            IT Factory
+    </td>
+                                            <td class="aggregateprogress"></td>
+                                            <td class="customfield_10044"></td>
+                                            <td class="customfield_10000"></td>
+                                            <td class="customfield_10045"></td>
+                                            <td class="customfield_10001">    None
+</td>
+                                            <td class="customfield_10046"></td>
+                                            <td class="customfield_10002"><div class="shorten" id="customfield_10002-field">
+    </div>
+</td>
+                                            <td class="customfield_10047"></td>
+                                            <td class="customfield_10003"></td>
+                                            <td class="customfield_10048"></td>
+                                            <td class="customfield_10004"></td>
+                                            <td class="customfield_10039"></td>
+                                            <td class="environment"></td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="progress"></td>
+                                            <td class="votes">0</td>
+                    </tr>
+
+
+                <tr id="issuerow19633" rel="19633" data-issuekey="NPT-111" class="issuerow">
+                                            <td class="statuscategorychangedate"> 25/Jul/24 8:13 AM </td>
+                                            <td class="issuetype">    Test
+</td>
+                                            <td class="customfield_10070"></td>
+                                            <td class="customfield_10071"></td>
+                                            <td class="timespent"></td>
+                                            <td class="customfield_10030"></td>
+                                            <td class="project">    Norbert Poka_TM2
+</td>
+                                            <td class="fixVersions">                        Primariatechirghiol.ro_versiunea_1.0_limba_română            </td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-green
+            jira-issue-status-lozenge-max-width-medium">Done</span>
+</td>
+                                            <td class="aggregatetimespent"></td>
+                                            <td class="customfield_10034"></td>
+                                            <td class="parent">            RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)
+    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="customfield_10035"></td>
+                                            <td class="customfield_10036"></td>
+                                            <td class="customfield_10027"></td>
+                                            <td class="customfield_10028"></td>
+                                            <td class="customfield_10029"></td>
+                                            <td class="resolutiondate"> 25/Jul/24 8:13 AM </td>
+                                            <td class="workratio">&nbsp;
+</td>
+                                            <td class="lastViewed"> 27/Feb/25 11:31 PM </td>
+                                            <td class="watches">1</td>
+                                            <td class="thumbnail"></td>
+                                            <td class="customfield_10060"></td>
+                                            <td class="customfield_10061"></td>
+                                            <td class="created"> 25/Jul/24 8:13 AM </td>
+                                            <td class="customfield_10062"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10063"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10064"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10020">NPT Sprint 1</td>
+                                            <td class="customfield_10065"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10021"></td>
+                                            <td class="customfield_10022"></td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="customfield_10023"></td>
+                                            <td class="customfield_10024"></td>
+                                            <td class="customfield_10069"></td>
+                                            <td class="labels"></td>
+                                            <td class="customfield_10016"></td>
+                                            <td class="customfield_10017"></td>
+                                            <td class="customfield_10018"></td>
+                                            <td class="customfield_10019">      0|i01fbl:
+  </td>
+                                            <td class="timeestimate"></td>
+                                            <td class="aggregatetimeoriginalestimate"></td>
+                                            <td class="versions">    &nbsp;
+</td>
+                                            <td class="issuelinks">                                        NPT-44,                                                NPT-45,                                                NPT-46,                                                NPT-112                        </td>
+                                            <td class="assignee">            IT Factory
+    </td>
+                                            <td class="updated"> 25/Jul/24 2:02 PM </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="components">    &nbsp;
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="NPT-111" href="https://itfclasses.atlassian.net/browse/NPT-111">NPT-111</a>
+</td>
+                                            <td class="customfield_10050">Unsupported.
+</td>
+                                            <td class="customfield_10051"></td>
+                                            <td class="timeoriginalestimate"></td>
+                                            <td class="customfield_10052"></td>
+                                            <td class="customfield_10053"></td>
+                                            <td class="description">            Verificarea faptului că meniul menționat în sumar se prezintă exact la fel pe browser-ul Mozilla Firefox, ca și atunci când utilizatorul final interacționează cu meniul utilizând browser-ul Google Chrome.<br/>
+<br/>
+*Precondiții:* <br/>
+<br/>
+* Utilizatorul final deține un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Mozilla Firefox, împreună cu un set de periferice și monitor.<br/>
+* Utilizatorul final se află pe pagina principală a site-ului web: [https://www.primariatechirghiol.ro|https://www.primariatechirghiol.ro/].<br/>
+<br/>
+*Criterii de acceptanță:*<br/>
+<br/>
+* Meniul nu reprezintă în continuare niciun pericol pentru poziționarea altor elemente din acea zonă a site-ului web, fiind corect amplasat.<br/>
+* În cadrul meniului nu apar alte butoane sau alte elemente care nu au legătură cu meniul.<br/>
+* Butoanele nu suferă modificări de natură să provoace defecte în urma schimbării rezoluției de vizualizare.<br/>
+* Butoanele în continuare redirecționează utilizatorul final către site-urile web așteptate.
+    </td>
+                                            <td class="customfield_10054"></td>
+                                            <td class="customfield_10010"></td>
+                                            <td class="customfield_10055"></td>
+                                            <td class="customfield_10056"></td>
+                                            <td class="customfield_10057"></td>
+                                            <td class="customfield_10058"></td>
+                                            <td class="customfield_10014">
+            RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)
+    </td>
+                                            <td class="customfield_10059"></td>
+                                            <td class="customfield_10015"></td>
+                                            <td class="customfield_10049">Unsupported.
+</td>
+                                            <td class="customfield_10005"></td>
+                                            <td class="customfield_10006"></td>
+                                            <td class="security"></td>
+                                            <td class="customfield_10007"></td>
+                                            <td class="customfield_10008"></td>
+                                            <td class="aggregatetimeestimate"></td>
+                                            <td class="customfield_10009"></td>
+                                            <td class="summary"><p>
+                Verificarea compatibilității meniului ”RUTI conform SNA” cu browser-ul Mozilla Firefox
+    </p>
+</td>
+                                            <td class="creator">            IT Factory
+    </td>
+                                            <td class="subtasks"></td>
+                                            <td class="customfield_10040"></td>
+                                            <td class="customfield_10041"><div class="sd-feedback-rating-column"><span>No permission</span></div></td>
+                                            <td class="reporter">            IT Factory
+    </td>
+                                            <td class="aggregateprogress"></td>
+                                            <td class="customfield_10044"></td>
+                                            <td class="customfield_10000"></td>
+                                            <td class="customfield_10045"></td>
+                                            <td class="customfield_10001">    None
+</td>
+                                            <td class="customfield_10046"></td>
+                                            <td class="customfield_10002"><div class="shorten" id="customfield_10002-field">
+    </div>
+</td>
+                                            <td class="customfield_10047"></td>
+                                            <td class="customfield_10003"></td>
+                                            <td class="customfield_10048"></td>
+                                            <td class="customfield_10004"></td>
+                                            <td class="customfield_10039"></td>
+                                            <td class="environment"></td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="progress"></td>
+                                            <td class="votes">0</td>
+                    </tr>
+
+
+                <tr id="issuerow19631" rel="19631" data-issuekey="NPT-109" class="issuerow">
+                                            <td class="statuscategorychangedate"> 25/Jul/24 8:09 AM </td>
+                                            <td class="issuetype">    Test
+</td>
+                                            <td class="customfield_10070"></td>
+                                            <td class="customfield_10071"></td>
+                                            <td class="timespent"></td>
+                                            <td class="customfield_10030"></td>
+                                            <td class="project">    Norbert Poka_TM2
+</td>
+                                            <td class="fixVersions">                        Primariatechirghiol.ro_versiunea_1.0_limba_română            </td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-green
+            jira-issue-status-lozenge-max-width-medium">Done</span>
+</td>
+                                            <td class="aggregatetimespent"></td>
+                                            <td class="customfield_10034"></td>
+                                            <td class="parent">            RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)
+    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="customfield_10035"></td>
+                                            <td class="customfield_10036"></td>
+                                            <td class="customfield_10027"></td>
+                                            <td class="customfield_10028"></td>
+                                            <td class="customfield_10029"></td>
+                                            <td class="resolutiondate"> 25/Jul/24 8:09 AM </td>
+                                            <td class="workratio">&nbsp;
+</td>
+                                            <td class="lastViewed"> 27/Feb/25 11:30 PM </td>
+                                            <td class="watches">1</td>
+                                            <td class="thumbnail"></td>
+                                            <td class="customfield_10060"></td>
+                                            <td class="customfield_10061"></td>
+                                            <td class="created"> 25/Jul/24 7:37 AM </td>
+                                            <td class="customfield_10062"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10063"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10064"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10020">NPT Sprint 1</td>
+                                            <td class="customfield_10065"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10021"></td>
+                                            <td class="customfield_10022"></td>
+                                            <td class="priority">           Low
+    </td>
+                                            <td class="customfield_10023"></td>
+                                            <td class="customfield_10024"></td>
+                                            <td class="customfield_10069"></td>
+                                            <td class="labels"></td>
+                                            <td class="customfield_10016"></td>
+                                            <td class="customfield_10017"></td>
+                                            <td class="customfield_10018"></td>
+                                            <td class="customfield_10019">      0|i01fb5:
+  </td>
+                                            <td class="timeestimate"></td>
+                                            <td class="aggregatetimeoriginalestimate"></td>
+                                            <td class="versions">    &nbsp;
+</td>
+                                            <td class="issuelinks">                                        NPT-44,                                                NPT-45,                                                NPT-46,                                                NPT-110                        </td>
+                                            <td class="assignee">            IT Factory
+    </td>
+                                            <td class="updated"> 25/Jul/24 8:09 AM </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="components">    &nbsp;
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="NPT-109" href="https://itfclasses.atlassian.net/browse/NPT-109">NPT-109</a>
+</td>
+                                            <td class="customfield_10050">Unsupported.
+</td>
+                                            <td class="customfield_10051"></td>
+                                            <td class="timeoriginalestimate"></td>
+                                            <td class="customfield_10052"></td>
+                                            <td class="customfield_10053"></td>
+                                            <td class="description">            Verificarea faptului că meniul menționat în sumar este conform așteptărilor.<br/>
+<br/>
+*Precondiții:* <br/>
+<br/>
+* Utilizatorul final deține un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Google Chrome, împreună cu un set de periferice și monitor.<br/>
+* Utilizatorul final utilizează browser-ul Google Chrome pentru a accesa pagina principală a site-ului web: [https://www.primariatechirghiol.ro|https://www.primariatechirghiol.ro/].<br/>
+<br/>
+*Criterii de acceptanță:*<br/>
+<br/>
+* Meniul nu reprezintă niciun pericol pentru poziționarea altor elemente din acea zonă a site-ului web, fiind corect amplasat.<br/>
+* Titlului meniului i s-a aplicat un font potrivit și o culoare potrivită, fiind și corect amplasat.<br/>
+* În cadrul meniului nu se află butoane sau alte elemente care nu au legătură cu meniul.<br/>
+* Butoanele redirecționează utilizatorul final către site-urile web așteptate.
+    </td>
+                                            <td class="customfield_10054"></td>
+                                            <td class="customfield_10010"></td>
+                                            <td class="customfield_10055"></td>
+                                            <td class="customfield_10056"></td>
+                                            <td class="customfield_10057"></td>
+                                            <td class="customfield_10058"></td>
+                                            <td class="customfield_10014">
+            RUTI conform SNA-leftsidebar (prezent pe partea stângă a paginii)
+    </td>
+                                            <td class="customfield_10059"></td>
+                                            <td class="customfield_10015"></td>
+                                            <td class="customfield_10049">Unsupported.
+</td>
+                                            <td class="customfield_10005"></td>
+                                            <td class="customfield_10006"></td>
+                                            <td class="security"></td>
+                                            <td class="customfield_10007"></td>
+                                            <td class="customfield_10008"></td>
+                                            <td class="aggregatetimeestimate"></td>
+                                            <td class="customfield_10009"></td>
+                                            <td class="summary"><p>
+                Verificarea structurii și a funcționalității meniului ”RUTI conform SNA”
+    </p>
+</td>
+                                            <td class="creator">            IT Factory
+    </td>
+                                            <td class="subtasks"></td>
+                                            <td class="customfield_10040"></td>
+                                            <td class="customfield_10041"><div class="sd-feedback-rating-column"><span>No permission</span></div></td>
+                                            <td class="reporter">            IT Factory
+    </td>
+                                            <td class="aggregateprogress"></td>
+                                            <td class="customfield_10044"></td>
+                                            <td class="customfield_10000"></td>
+                                            <td class="customfield_10045"></td>
+                                            <td class="customfield_10001">    None
+</td>
+                                            <td class="customfield_10046"></td>
+                                            <td class="customfield_10002"><div class="shorten" id="customfield_10002-field">
+    </div>
+</td>
+                                            <td class="customfield_10047"></td>
+                                            <td class="customfield_10003"></td>
+                                            <td class="customfield_10048"></td>
+                                            <td class="customfield_10004"></td>
+                                            <td class="customfield_10039"></td>
+                                            <td class="environment"></td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="progress"></td>
+                                            <td class="votes">0</td>
+                    </tr>
+
+
+                <tr id="issuerow19622" rel="19622" data-issuekey="NPT-100" class="issuerow">
+                                            <td class="statuscategorychangedate"> 25/Jul/24 7:16 AM </td>
+                                            <td class="issuetype">    Test
+</td>
+                                            <td class="customfield_10070"></td>
+                                            <td class="customfield_10071"></td>
+                                            <td class="timespent"></td>
+                                            <td class="customfield_10030"></td>
+                                            <td class="project">    Norbert Poka_TM2
+</td>
+                                            <td class="fixVersions">                        Primariatechirghiol.ro_versiunea_1.0_limba_română            </td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-green
+            jira-issue-status-lozenge-max-width-medium">Done</span>
+</td>
+                                            <td class="aggregatetimespent"></td>
+                                            <td class="customfield_10034"></td>
+                                            <td class="parent">            Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)
+    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="customfield_10035"></td>
+                                            <td class="customfield_10036"></td>
+                                            <td class="customfield_10027"></td>
+                                            <td class="customfield_10028"></td>
+                                            <td class="customfield_10029"></td>
+                                            <td class="resolutiondate"> 25/Jul/24 7:16 AM </td>
+                                            <td class="workratio">&nbsp;
+</td>
+                                            <td class="lastViewed"> 27/Feb/25 11:28 PM </td>
+                                            <td class="watches">1</td>
+                                            <td class="thumbnail"></td>
+                                            <td class="customfield_10060"></td>
+                                            <td class="customfield_10061"></td>
+                                            <td class="created"> 25/Jul/24 6:09 AM </td>
+                                            <td class="customfield_10062"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10063"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10064"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10020">NPT Sprint 1</td>
+                                            <td class="customfield_10065"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10021"></td>
+                                            <td class="customfield_10022"></td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="customfield_10023"></td>
+                                            <td class="customfield_10024"></td>
+                                            <td class="customfield_10069"></td>
+                                            <td class="labels"></td>
+                                            <td class="customfield_10016"></td>
+                                            <td class="customfield_10017"></td>
+                                            <td class="customfield_10018"></td>
+                                            <td class="customfield_10019">      0|i01f95:
+  </td>
+                                            <td class="timeestimate"></td>
+                                            <td class="aggregatetimeoriginalestimate"></td>
+                                            <td class="versions">    &nbsp;
+</td>
+                                            <td class="issuelinks">                                        NPT-49,                                                NPT-50,                                                NPT-51,                                                NPT-52,                                                NPT-53,                                                NPT-54,                                                NPT-55,                                                NPT-56,                                                NPT-57,                                                NPT-107,                                                NPT-108                        </td>
+                                            <td class="assignee">            IT Factory
+    </td>
+                                            <td class="updated"> 25/Jul/24 3:24 PM </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="components">    &nbsp;
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="NPT-100" href="https://itfclasses.atlassian.net/browse/NPT-100">NPT-100</a>
+</td>
+                                            <td class="customfield_10050">Unsupported.
+</td>
+                                            <td class="customfield_10051"></td>
+                                            <td class="timeoriginalestimate"></td>
+                                            <td class="customfield_10052"></td>
+                                            <td class="customfield_10053"></td>
+                                            <td class="description">            Verificarea faptului că meniul menționat în sumar se prezintă exact la fel pe browser-ul Microsoft Edge, ca și atunci când utilizatorul final interacționează cu meniul utilizând browser-ul Google Chrome.<br/>
+<br/>
+*Precondiții:* <br/>
+<br/>
+* Utilizatorul final deține un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Microsoft Edge, împreună cu un set de periferice și monitor.<br/>
+* Utilizatorul final se află pe pagina principală a site-ului web: [https://www.primariatechirghiol.ro|https://www.primariatechirghiol.ro/].<br/>
+<br/>
+*Criterii de acceptanță:*<br/>
+<br/>
+* Meniul nu reprezintă în continuare niciun pericol pentru poziționarea altor elemente din acea zonă a site-ului web, fiind corect amplasat.<br/>
+* În cadrul meniului nu apar alte butoane sau alte elemente care nu au legătură cu meniul.<br/>
+* Butoanele nu suferă modificări de natură să provoace defecte în urma schimbării rezoluției de vizualizare.<br/>
+* Butoanele în continuare redirecționează utilizatorul final către site-urile web așteptate.
+    </td>
+                                            <td class="customfield_10054"></td>
+                                            <td class="customfield_10010"></td>
+                                            <td class="customfield_10055"></td>
+                                            <td class="customfield_10056"></td>
+                                            <td class="customfield_10057"></td>
+                                            <td class="customfield_10058"></td>
+                                            <td class="customfield_10014">
+            Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)
+    </td>
+                                            <td class="customfield_10059"></td>
+                                            <td class="customfield_10015"></td>
+                                            <td class="customfield_10049">Unsupported.
+</td>
+                                            <td class="customfield_10005"></td>
+                                            <td class="customfield_10006"></td>
+                                            <td class="security"></td>
+                                            <td class="customfield_10007"></td>
+                                            <td class="customfield_10008"></td>
+                                            <td class="aggregatetimeestimate"></td>
+                                            <td class="customfield_10009"></td>
+                                            <td class="summary"><p>
+                Verificarea compatibilității meniului ”Link-uri Utile” cu browser-ul Microsoft Edge
+    </p>
+</td>
+                                            <td class="creator">            IT Factory
+    </td>
+                                            <td class="subtasks"></td>
+                                            <td class="customfield_10040"></td>
+                                            <td class="customfield_10041"><div class="sd-feedback-rating-column"><span>No permission</span></div></td>
+                                            <td class="reporter">            IT Factory
+    </td>
+                                            <td class="aggregateprogress"></td>
+                                            <td class="customfield_10044"></td>
+                                            <td class="customfield_10000"></td>
+                                            <td class="customfield_10045"></td>
+                                            <td class="customfield_10001">    None
+</td>
+                                            <td class="customfield_10046"></td>
+                                            <td class="customfield_10002"><div class="shorten" id="customfield_10002-field">
+    </div>
+</td>
+                                            <td class="customfield_10047"></td>
+                                            <td class="customfield_10003"></td>
+                                            <td class="customfield_10048"></td>
+                                            <td class="customfield_10004"></td>
+                                            <td class="customfield_10039"></td>
+                                            <td class="environment"></td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="progress"></td>
+                                            <td class="votes">0</td>
+                    </tr>
+
+
+                <tr id="issuerow19621" rel="19621" data-issuekey="NPT-99" class="issuerow">
+                                            <td class="statuscategorychangedate"> 25/Jul/24 7:16 AM </td>
+                                            <td class="issuetype">    Test
+</td>
+                                            <td class="customfield_10070"></td>
+                                            <td class="customfield_10071"></td>
+                                            <td class="timespent"></td>
+                                            <td class="customfield_10030"></td>
+                                            <td class="project">    Norbert Poka_TM2
+</td>
+                                            <td class="fixVersions">                        Primariatechirghiol.ro_versiunea_1.0_limba_română            </td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-green
+            jira-issue-status-lozenge-max-width-medium">Done</span>
+</td>
+                                            <td class="aggregatetimespent"></td>
+                                            <td class="customfield_10034"></td>
+                                            <td class="parent">            Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)
+    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="customfield_10035"></td>
+                                            <td class="customfield_10036"></td>
+                                            <td class="customfield_10027"></td>
+                                            <td class="customfield_10028"></td>
+                                            <td class="customfield_10029"></td>
+                                            <td class="resolutiondate"> 25/Jul/24 7:16 AM </td>
+                                            <td class="workratio">&nbsp;
+</td>
+                                            <td class="lastViewed"> 27/Feb/25 11:26 PM </td>
+                                            <td class="watches">1</td>
+                                            <td class="thumbnail"></td>
+                                            <td class="customfield_10060"></td>
+                                            <td class="customfield_10061"></td>
+                                            <td class="created"> 25/Jul/24 5:48 AM </td>
+                                            <td class="customfield_10062"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10063"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10064"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10020">NPT Sprint 1</td>
+                                            <td class="customfield_10065"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10021"></td>
+                                            <td class="customfield_10022"></td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="customfield_10023"></td>
+                                            <td class="customfield_10024"></td>
+                                            <td class="customfield_10069"></td>
+                                            <td class="labels"></td>
+                                            <td class="customfield_10016"></td>
+                                            <td class="customfield_10017"></td>
+                                            <td class="customfield_10018"></td>
+                                            <td class="customfield_10019">      0|i01f8x:
+  </td>
+                                            <td class="timeestimate"></td>
+                                            <td class="aggregatetimeoriginalestimate"></td>
+                                            <td class="versions">    &nbsp;
+</td>
+                                            <td class="issuelinks">                                        NPT-49,                                                NPT-50,                                                NPT-51,                                                NPT-52,                                                NPT-53,                                                NPT-54,                                                NPT-55,                                                NPT-56,                                                NPT-57,                                                NPT-105,                                                NPT-106                        </td>
+                                            <td class="assignee">            IT Factory
+    </td>
+                                            <td class="updated"> 25/Jul/24 3:27 PM </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="components">    &nbsp;
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="NPT-99" href="https://itfclasses.atlassian.net/browse/NPT-99">NPT-99</a>
+</td>
+                                            <td class="customfield_10050">Unsupported.
+</td>
+                                            <td class="customfield_10051"></td>
+                                            <td class="timeoriginalestimate"></td>
+                                            <td class="customfield_10052"></td>
+                                            <td class="customfield_10053"></td>
+                                            <td class="description">            Verificarea faptului că meniul menționat în sumar se prezintă aproximativ la fel pe Samsung Galaxy S20 Ultra (fără să fie generate defecte), fiind utilizat browser-ul Google Chrome, ca și atunci când utilizatorul final interacționează cu meniul utilizând calculatorul personal. <br/>
+<br/>
+*Precondiții:* <br/>
+<br/>
+* Utilizatorul final deține un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Google Chrome, împreună cu un set de periferice și monitor.<br/>
+* Utilizatorul final utilizează browser-ul Google Chrome pentru a accesa pagina principală a site-ului web: [https://www.primariatechirghiol.ro|https://www.primariatechirghiol.ro/].<br/>
+<br/>
+*Criterii de acceptanță:*<br/>
+<br/>
+* Meniul nu reprezintă în continuare niciun pericol pentru poziționarea altor elemente din acea zonă a site-ului web, fiind corect amplasat.<br/>
+* În cadrul meniului nu apar alte butoane sau alte elemente care nu au legătură cu meniul.<br/>
+* Butoanele nu suferă modificări de natură să provoace defecte în urma schimbării rezoluției de vizualizare.<br/>
+* Butoanele în continuare redirecționează utilizatorul final către site-urile web așteptate.
+    </td>
+                                            <td class="customfield_10054"></td>
+                                            <td class="customfield_10010"></td>
+                                            <td class="customfield_10055"></td>
+                                            <td class="customfield_10056"></td>
+                                            <td class="customfield_10057"></td>
+                                            <td class="customfield_10058"></td>
+                                            <td class="customfield_10014">
+            Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)
+    </td>
+                                            <td class="customfield_10059"></td>
+                                            <td class="customfield_10015"></td>
+                                            <td class="customfield_10049">Unsupported.
+</td>
+                                            <td class="customfield_10005"></td>
+                                            <td class="customfield_10006"></td>
+                                            <td class="security"></td>
+                                            <td class="customfield_10007"></td>
+                                            <td class="customfield_10008"></td>
+                                            <td class="aggregatetimeestimate"></td>
+                                            <td class="customfield_10009"></td>
+                                            <td class="summary"><p>
+                Verificarea compatibilității meniului ”Link-uri Utile” cu Samsung Galaxy S20 Ultra
+    </p>
+</td>
+                                            <td class="creator">            IT Factory
+    </td>
+                                            <td class="subtasks"></td>
+                                            <td class="customfield_10040"></td>
+                                            <td class="customfield_10041"><div class="sd-feedback-rating-column"><span>No permission</span></div></td>
+                                            <td class="reporter">            IT Factory
+    </td>
+                                            <td class="aggregateprogress"></td>
+                                            <td class="customfield_10044"></td>
+                                            <td class="customfield_10000"></td>
+                                            <td class="customfield_10045"></td>
+                                            <td class="customfield_10001">    None
+</td>
+                                            <td class="customfield_10046"></td>
+                                            <td class="customfield_10002"><div class="shorten" id="customfield_10002-field">
+    </div>
+</td>
+                                            <td class="customfield_10047"></td>
+                                            <td class="customfield_10003"></td>
+                                            <td class="customfield_10048"></td>
+                                            <td class="customfield_10004"></td>
+                                            <td class="customfield_10039"></td>
+                                            <td class="environment"></td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="progress"></td>
+                                            <td class="votes">0</td>
+                    </tr>
+
+
+                <tr id="issuerow19617" rel="19617" data-issuekey="NPT-95" class="issuerow">
+                                            <td class="statuscategorychangedate"> 25/Jul/24 7:16 AM </td>
+                                            <td class="issuetype">    Test
+</td>
+                                            <td class="customfield_10070"></td>
+                                            <td class="customfield_10071"></td>
+                                            <td class="timespent"></td>
+                                            <td class="customfield_10030"></td>
+                                            <td class="project">    Norbert Poka_TM2
+</td>
+                                            <td class="fixVersions">                        Primariatechirghiol.ro_versiunea_1.0_limba_română            </td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-green
+            jira-issue-status-lozenge-max-width-medium">Done</span>
+</td>
+                                            <td class="aggregatetimespent"></td>
+                                            <td class="customfield_10034"></td>
+                                            <td class="parent">            Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)
+    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="customfield_10035"></td>
+                                            <td class="customfield_10036"></td>
+                                            <td class="customfield_10027"></td>
+                                            <td class="customfield_10028"></td>
+                                            <td class="customfield_10029"></td>
+                                            <td class="resolutiondate"> 25/Jul/24 7:16 AM </td>
+                                            <td class="workratio">&nbsp;
+</td>
+                                            <td class="lastViewed"> 27/Feb/25 11:24 PM </td>
+                                            <td class="watches">1</td>
+                                            <td class="thumbnail"></td>
+                                            <td class="customfield_10060"></td>
+                                            <td class="customfield_10061"></td>
+                                            <td class="created"> 25/Jul/24 2:34 AM </td>
+                                            <td class="customfield_10062"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10063"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10064"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10020">NPT Sprint 1</td>
+                                            <td class="customfield_10065"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10021"></td>
+                                            <td class="customfield_10022"></td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="customfield_10023"></td>
+                                            <td class="customfield_10024"></td>
+                                            <td class="customfield_10069"></td>
+                                            <td class="labels"></td>
+                                            <td class="customfield_10016"></td>
+                                            <td class="customfield_10017"></td>
+                                            <td class="customfield_10018"></td>
+                                            <td class="customfield_10019">      0|i01f89:
+  </td>
+                                            <td class="timeestimate"></td>
+                                            <td class="aggregatetimeoriginalestimate"></td>
+                                            <td class="versions">    &nbsp;
+</td>
+                                            <td class="issuelinks">                                        NPT-49,                                                NPT-50,                                                NPT-51,                                                NPT-52,                                                NPT-53,                                                NPT-54,                                                NPT-55,                                                NPT-56,                                                NPT-57,                                                NPT-103,                                                NPT-104                        </td>
+                                            <td class="assignee">            IT Factory
+    </td>
+                                            <td class="updated"> 25/Jul/24 3:24 PM </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="components">    &nbsp;
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="NPT-95" href="https://itfclasses.atlassian.net/browse/NPT-95">NPT-95</a>
+</td>
+                                            <td class="customfield_10050">Unsupported.
+</td>
+                                            <td class="customfield_10051"></td>
+                                            <td class="timeoriginalestimate"></td>
+                                            <td class="customfield_10052"></td>
+                                            <td class="customfield_10053"></td>
+                                            <td class="description">            Verificarea faptului că meniul menționat în sumar se prezintă exact la fel pe browser-ul Mozilla Firefox, ca și atunci când utilizatorul final interacționează cu meniul utilizând browser-ul Google Chrome.<br/>
+<br/>
+*Precondiții:* <br/>
+<br/>
+* Utilizatorul final deține un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Mozilla Firefox, împreună cu un set de periferice și monitor.<br/>
+* Utilizatorul final se află pe pagina principală a site-ului web: [https://www.primariatechirghiol.ro|https://www.primariatechirghiol.ro/].<br/>
+<br/>
+*Criterii de acceptanță:*<br/>
+<br/>
+* Meniul nu reprezintă în continuare niciun pericol pentru poziționarea altor elemente din acea zonă a site-ului web, fiind corect amplasat.<br/>
+* În cadrul meniului nu apar alte butoane sau alte elemente care nu au legătură cu meniul.<br/>
+* Butoanele nu suferă modificări de natură să provoace defecte în urma schimbării rezoluției de vizualizare.<br/>
+* Butoanele în continuare redirecționează utilizatorul final către site-urile web așteptate.
+    </td>
+                                            <td class="customfield_10054"></td>
+                                            <td class="customfield_10010"></td>
+                                            <td class="customfield_10055"></td>
+                                            <td class="customfield_10056"></td>
+                                            <td class="customfield_10057"></td>
+                                            <td class="customfield_10058"></td>
+                                            <td class="customfield_10014">
+            Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)
+    </td>
+                                            <td class="customfield_10059"></td>
+                                            <td class="customfield_10015"></td>
+                                            <td class="customfield_10049">Unsupported.
+</td>
+                                            <td class="customfield_10005"></td>
+                                            <td class="customfield_10006"></td>
+                                            <td class="security"></td>
+                                            <td class="customfield_10007"></td>
+                                            <td class="customfield_10008"></td>
+                                            <td class="aggregatetimeestimate"></td>
+                                            <td class="customfield_10009"></td>
+                                            <td class="summary"><p>
+                Verificarea compatibilității meniului ”Link-uri Utile” cu browser-ul Mozilla Firefox
+    </p>
+</td>
+                                            <td class="creator">            IT Factory
+    </td>
+                                            <td class="subtasks"></td>
+                                            <td class="customfield_10040"></td>
+                                            <td class="customfield_10041"><div class="sd-feedback-rating-column"><span>No permission</span></div></td>
+                                            <td class="reporter">            IT Factory
+    </td>
+                                            <td class="aggregateprogress"></td>
+                                            <td class="customfield_10044"></td>
+                                            <td class="customfield_10000"></td>
+                                            <td class="customfield_10045"></td>
+                                            <td class="customfield_10001">    None
+</td>
+                                            <td class="customfield_10046"></td>
+                                            <td class="customfield_10002"><div class="shorten" id="customfield_10002-field">
+    </div>
+</td>
+                                            <td class="customfield_10047"></td>
+                                            <td class="customfield_10003"></td>
+                                            <td class="customfield_10048"></td>
+                                            <td class="customfield_10004"></td>
+                                            <td class="customfield_10039"></td>
+                                            <td class="environment"></td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="progress"></td>
+                                            <td class="votes">0</td>
+                    </tr>
+
+
+                <tr id="issuerow19616" rel="19616" data-issuekey="NPT-94" class="issuerow">
+                                            <td class="statuscategorychangedate"> 25/Jul/24 7:16 AM </td>
+                                            <td class="issuetype">    Test
+</td>
+                                            <td class="customfield_10070"></td>
+                                            <td class="customfield_10071"></td>
+                                            <td class="timespent"></td>
+                                            <td class="customfield_10030"></td>
+                                            <td class="project">    Norbert Poka_TM2
+</td>
+                                            <td class="fixVersions">                        Primariatechirghiol.ro_versiunea_1.0_limba_română            </td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-green
+            jira-issue-status-lozenge-max-width-medium">Done</span>
+</td>
+                                            <td class="aggregatetimespent"></td>
+                                            <td class="customfield_10034"></td>
+                                            <td class="parent">            Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)
+    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="customfield_10035"></td>
+                                            <td class="customfield_10036"></td>
+                                            <td class="customfield_10027"></td>
+                                            <td class="customfield_10028"></td>
+                                            <td class="customfield_10029"></td>
+                                            <td class="resolutiondate"> 25/Jul/24 7:16 AM </td>
+                                            <td class="workratio">&nbsp;
+</td>
+                                            <td class="lastViewed"> 27/Feb/25 11:22 PM </td>
+                                            <td class="watches">1</td>
+                                            <td class="thumbnail"></td>
+                                            <td class="customfield_10060"></td>
+                                            <td class="customfield_10061"></td>
+                                            <td class="created"> 25/Jul/24 2:18 AM </td>
+                                            <td class="customfield_10062"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10063"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10064"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10020">NPT Sprint 1</td>
+                                            <td class="customfield_10065"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10021"></td>
+                                            <td class="customfield_10022"></td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="customfield_10023"></td>
+                                            <td class="customfield_10024"></td>
+                                            <td class="customfield_10069"></td>
+                                            <td class="labels"></td>
+                                            <td class="customfield_10016"></td>
+                                            <td class="customfield_10017"></td>
+                                            <td class="customfield_10018"></td>
+                                            <td class="customfield_10019">      0|i01f81:
+  </td>
+                                            <td class="timeestimate"></td>
+                                            <td class="aggregatetimeoriginalestimate"></td>
+                                            <td class="versions">    &nbsp;
+</td>
+                                            <td class="issuelinks">                                        NPT-49,                                                NPT-50,                                                NPT-51,                                                NPT-52,                                                NPT-53,                                                NPT-54,                                                NPT-55,                                                NPT-56,                                                NPT-57,                                                NPT-101,                                                NPT-102                        </td>
+                                            <td class="assignee">            IT Factory
+    </td>
+                                            <td class="updated"> 25/Jul/24 3:24 PM </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="components">    &nbsp;
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="NPT-94" href="https://itfclasses.atlassian.net/browse/NPT-94">NPT-94</a>
+</td>
+                                            <td class="customfield_10050">Unsupported.
+</td>
+                                            <td class="customfield_10051"></td>
+                                            <td class="timeoriginalestimate"></td>
+                                            <td class="customfield_10052"></td>
+                                            <td class="customfield_10053"></td>
+                                            <td class="description">            Verificarea faptului că meniul menționat în sumar se prezintă aproximativ la fel pe iPad Pro (fără să fie generate defecte), fiind utilizat browser-ul Google Chrome, ca și atunci când utilizatorul final interacționează cu meniul utilizând calculatorul personal. <br/>
+<br/>
+*Precondiții:* <br/>
+<br/>
+* Utilizatorul final deține un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Google Chrome, împreună cu un set de periferice și monitor.<br/>
+* Utilizatorul final utilizează browser-ul Google Chrome pentru a accesa pagina principală a site-ului web: [https://www.primariatechirghiol.ro|https://www.primariatechirghiol.ro/].<br/>
+<br/>
+*Criterii de acceptanță:*<br/>
+<br/>
+* Meniul nu reprezintă în continuare niciun pericol pentru poziționarea altor elemente din acea zonă a site-ului web, fiind corect amplasat.<br/>
+* În cadrul meniului nu apar alte butoane sau alte elemente care nu au legătură cu meniul.<br/>
+* Butoanele nu suferă modificări de natură să provoace defecte în urma schimbării rezoluției de vizualizare.<br/>
+* Butoanele în continuare redirecționează utilizatorul final către site-urile web așteptate.
+    </td>
+                                            <td class="customfield_10054"></td>
+                                            <td class="customfield_10010"></td>
+                                            <td class="customfield_10055"></td>
+                                            <td class="customfield_10056"></td>
+                                            <td class="customfield_10057"></td>
+                                            <td class="customfield_10058"></td>
+                                            <td class="customfield_10014">
+            Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)
+    </td>
+                                            <td class="customfield_10059"></td>
+                                            <td class="customfield_10015"></td>
+                                            <td class="customfield_10049">Unsupported.
+</td>
+                                            <td class="customfield_10005"></td>
+                                            <td class="customfield_10006"></td>
+                                            <td class="security"></td>
+                                            <td class="customfield_10007"></td>
+                                            <td class="customfield_10008"></td>
+                                            <td class="aggregatetimeestimate"></td>
+                                            <td class="customfield_10009"></td>
+                                            <td class="summary"><p>
+                Verificarea compatibilității meniului ”Link-uri Utile” cu iPad Pro
+    </p>
+</td>
+                                            <td class="creator">            IT Factory
+    </td>
+                                            <td class="subtasks"></td>
+                                            <td class="customfield_10040"></td>
+                                            <td class="customfield_10041"><div class="sd-feedback-rating-column"><span>No permission</span></div></td>
+                                            <td class="reporter">            IT Factory
+    </td>
+                                            <td class="aggregateprogress"></td>
+                                            <td class="customfield_10044"></td>
+                                            <td class="customfield_10000"></td>
+                                            <td class="customfield_10045"></td>
+                                            <td class="customfield_10001">    None
+</td>
+                                            <td class="customfield_10046"></td>
+                                            <td class="customfield_10002"><div class="shorten" id="customfield_10002-field">
+    </div>
+</td>
+                                            <td class="customfield_10047"></td>
+                                            <td class="customfield_10003"></td>
+                                            <td class="customfield_10048"></td>
+                                            <td class="customfield_10004"></td>
+                                            <td class="customfield_10039"></td>
+                                            <td class="environment"></td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="progress"></td>
+                                            <td class="votes">0</td>
+                    </tr>
+
+
+                <tr id="issuerow19615" rel="19615" data-issuekey="NPT-93" class="issuerow">
+                                            <td class="statuscategorychangedate"> 25/Jul/24 7:16 AM </td>
+                                            <td class="issuetype">    Test
+</td>
+                                            <td class="customfield_10070"></td>
+                                            <td class="customfield_10071"></td>
+                                            <td class="timespent"></td>
+                                            <td class="customfield_10030"></td>
+                                            <td class="project">    Norbert Poka_TM2
+</td>
+                                            <td class="fixVersions">                        Primariatechirghiol.ro_versiunea_1.0_limba_română            </td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-green
+            jira-issue-status-lozenge-max-width-medium">Done</span>
+</td>
+                                            <td class="aggregatetimespent"></td>
+                                            <td class="customfield_10034"></td>
+                                            <td class="parent">            Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)
+    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="customfield_10035"></td>
+                                            <td class="customfield_10036"></td>
+                                            <td class="customfield_10027"></td>
+                                            <td class="customfield_10028"></td>
+                                            <td class="customfield_10029"></td>
+                                            <td class="resolutiondate"> 25/Jul/24 7:16 AM </td>
+                                            <td class="workratio">&nbsp;
+</td>
+                                            <td class="lastViewed"> 27/Feb/25 4:14 PM </td>
+                                            <td class="watches">1</td>
+                                            <td class="thumbnail"></td>
+                                            <td class="customfield_10060"></td>
+                                            <td class="customfield_10061"></td>
+                                            <td class="created"> 25/Jul/24 1:53 AM </td>
+                                            <td class="customfield_10062"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10063"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10064"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10020">NPT Sprint 1</td>
+                                            <td class="customfield_10065"><span class="sla-agent-restricted">Restricted to agents</span>
+</td>
+                                            <td class="customfield_10021"></td>
+                                            <td class="customfield_10022"></td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="customfield_10023"></td>
+                                            <td class="customfield_10024"></td>
+                                            <td class="customfield_10069"></td>
+                                            <td class="labels"></td>
+                                            <td class="customfield_10016"></td>
+                                            <td class="customfield_10017"></td>
+                                            <td class="customfield_10018"></td>
+                                            <td class="customfield_10019">      0|i01f7t:
+  </td>
+                                            <td class="timeestimate"></td>
+                                            <td class="aggregatetimeoriginalestimate"></td>
+                                            <td class="versions">    &nbsp;
+</td>
+                                            <td class="issuelinks">                                        NPT-49,                                                NPT-50,                                                NPT-51,                                                NPT-52,                                                NPT-53,                                                NPT-54,                                                NPT-55,                                                NPT-56,                                                NPT-57,                                                NPT-96,                                                NPT-97                        </td>
+                                            <td class="assignee">            IT Factory
+    </td>
+                                            <td class="updated"> 25/Jul/24 3:24 PM </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="components">    &nbsp;
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="NPT-93" href="https://itfclasses.atlassian.net/browse/NPT-93">NPT-93</a>
+</td>
+                                            <td class="customfield_10050">Unsupported.
+</td>
+                                            <td class="customfield_10051"></td>
+                                            <td class="timeoriginalestimate"></td>
+                                            <td class="customfield_10052"></td>
+                                            <td class="customfield_10053"></td>
+                                            <td class="description">            Verificarea faptului că meniul menționat în sumar este conform așteptărilor.<br/>
+<br/>
+*Precondiții:* <br/>
+<br/>
+* Utilizatorul final deține un calculator personal cu cel puțin Windows 10 Home, fiind instalat pe acesta browser-ul Google Chrome, împreună cu un set de periferice și monitor.<br/>
+* Utilizatorul final utilizează browser-ul Google Chrome pentru a accesa pagina principală a site-ului web: [https://www.primariatechirghiol.ro|https://www.primariatechirghiol.ro/].<br/>
+<br/>
+*Criterii de acceptanță:*<br/>
+<br/>
+* Meniul nu reprezintă niciun pericol pentru poziționarea altor elemente din acea zonă a site-ului web, fiind corect amplasat.<br/>
+* Titlului meniului i s-a aplicat un font potrivit și o culoare potrivită, fiind și corect amplasat.<br/>
+* În cadrul meniului nu se află butoane sau alte elemente care nu au legătură cu meniul.<br/>
+* Butoanele redirecționează utilizatorul final către site-urile web așteptate.
+    </td>
+                                            <td class="customfield_10054"></td>
+                                            <td class="customfield_10010"></td>
+                                            <td class="customfield_10055"></td>
+                                            <td class="customfield_10056"></td>
+                                            <td class="customfield_10057"></td>
+                                            <td class="customfield_10058"></td>
+                                            <td class="customfield_10014">
+            Meniul de link-uri utile/sidebar-ul (pe partea dreaptă)
+    </td>
+                                            <td class="customfield_10059"></td>
+                                            <td class="customfield_10015"></td>
+                                            <td class="customfield_10049">Unsupported.
+</td>
+                                            <td class="customfield_10005"></td>
+                                            <td class="customfield_10006"></td>
+                                            <td class="security"></td>
+                                            <td class="customfield_10007"></td>
+                                            <td class="customfield_10008"></td>
+                                            <td class="aggregatetimeestimate"></td>
+                                            <td class="customfield_10009"></td>
+                                            <td class="summary"><p>
+                Verificarea structurii și a funcționalității meniului ”Link-uri Utile”
+    </p>
+</td>
+                                            <td class="creator">            IT Factory
+    </td>
+                                            <td class="subtasks"></td>
+                                            <td class="customfield_10040"></td>
+                                            <td class="customfield_10041"><div class="sd-feedback-rating-column"><span>No permission</span></div></td>
+                                            <td class="reporter">            IT Factory
+    </td>
+                                            <td class="aggregateprogress"></td>
+                                            <td class="customfield_10044"></td>
+                                            <td class="customfield_10000"></td>
+                                            <td class="customfield_10045"></td>
+                                            <td class="customfield_10001">    None
+</td>
+                                            <td class="customfield_10046"></td>
+                                            <td class="customfield_10002"><div class="shorten" id="customfield_10002-field">
+    </div>
+</td>
+                                            <td class="customfield_10047"></td>
+                                            <td class="customfield_10003"></td>
+                                            <td class="customfield_10048"></td>
+                                            <td class="customfield_10004"></td>
+                                            <td class="customfield_10039"></td>
+                                            <td class="environment"></td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                                            <td class="progress"></td>
+                                            <td class="votes">0</td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="96"><font size="1">
+        Generated at Thu Mar 20 10:56:45 GMT 2025 by IT Factory using Jira 1001.0.0-SNAPSHOT#100282-rev:f969b45f124c6fc5642618aecac62e0dd062db5a.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>
